@@ -1,8 +1,8 @@
 # John 1:43 (New International Version)
 Jesus Calls Philip and Nathanael
-The next day Jesus decided to leave for Galilee. Finding Philip,[^A] he said to him, "Follow me."[^B]
+The next day Jesus decided to leave for Galilee. Finding Philip,<sup>^A</sup> he said to him, "Follow me."<sup>^B</sup>
 
 ### Crossrefs
-[^A]: [[Matt-10-3|Mt 10:3]]; [[John-6-5|Jn 6:5-7]]; [[John-12-21|12:21]], [[John-12-22|22]]; [[John-14-8|14:8]], [[John-14-9|9]]
-[^B]: S [[Matt-4-19|Mt 4:19]]
+- A: [[Matt-10-3|Mt 10:3]]; [[John-6-5|Jn 6:5-7]]; [[John-12-21|12:21]], [[John-12-22|22]]; [[John-14-8|14:8]], [[John-14-9|9]]
+- B: S [[Matt-4-19|Mt 4:19]]
 

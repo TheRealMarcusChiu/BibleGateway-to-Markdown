@@ -1,6 +1,6 @@
 # Hebrews 4:2 (New International Version)
-For we also have had the good news proclaimed to us, just as they did; but the message they heard was of no value to them, because they did not share the faith of those who obeyed.[^A] 
+For we also have had the good news proclaimed to us, just as they did; but the message they heard was of no value to them, because they did not share the faith of those who obeyed.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[1Thess-2-13|1Th 2:13]]
+- A: [[1Thess-2-13|1Th 2:13]]
 

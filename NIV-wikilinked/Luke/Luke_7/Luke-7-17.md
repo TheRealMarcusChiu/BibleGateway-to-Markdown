@@ -1,6 +1,6 @@
 # Luke 7:17 (New International Version)
-This news about Jesus spread throughout Judea and the surrounding country.[^A]
+This news about Jesus spread throughout Judea and the surrounding country.<sup>^A</sup>
 
 ### Crossrefs
-[^A]: S [[Matt-9-26|Mt 9:26]]
+- A: S [[Matt-9-26|Mt 9:26]]
 

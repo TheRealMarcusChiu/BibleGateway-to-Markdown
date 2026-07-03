@@ -1,7 +1,7 @@
 # Matthew 5:37 (New International Version)
-All you need to say is simply 'Yes' or 'No';[^A] anything beyond this comes from the evil one.[^B]
+All you need to say is simply 'Yes' or 'No';<sup>^A</sup> anything beyond this comes from the evil one.<sup>^B</sup>
 
 ### Crossrefs
-[^A]: [[Jas-5-12|Jas 5:12]]
-[^B]: [[Matt-6-13|Mt 6:13]]; [[Matt-13-19|13:19]], [[Matt-13-38|38]]; [[John-17-15|Jn 17:15]]; [[Eph-6-16|Eph 6:16]]; [[2Thess-3-3|2Th 3:3]]; [[1John-2-13|1Jn 2:13]], [[1John-2-14|14]]; [[1John-3-12|3:12]]; [[1John-5-18|5:18]], [[1John-5-19|19]]
+- A: [[Jas-5-12|Jas 5:12]]
+- B: [[Matt-6-13|Mt 6:13]]; [[Matt-13-19|13:19]], [[Matt-13-38|38]]; [[John-17-15|Jn 17:15]]; [[Eph-6-16|Eph 6:16]]; [[2Thess-3-3|2Th 3:3]]; [[1John-2-13|1Jn 2:13]], [[1John-2-14|14]]; [[1John-3-12|3:12]]; [[1John-5-18|5:18]], [[1John-5-19|19]]
 

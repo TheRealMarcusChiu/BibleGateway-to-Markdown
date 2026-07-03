@@ -1,8 +1,8 @@
 # Luke 6:20 (New International Version)
 Looking at his disciples, he said:
 "Blessed are you who are poor,  
-    for yours is the kingdom of God.[^A]
+    for yours is the kingdom of God.<sup>^A</sup>
 
 ### Crossrefs
-[^A]: S [[Matt-25-34|Mt 25:34]]
+- A: S [[Matt-25-34|Mt 25:34]]
 

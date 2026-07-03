@@ -1,6 +1,6 @@
 # Matthew 10:6 (New International Version)
-Go rather to the lost sheep of Israel.[^A] 
+Go rather to the lost sheep of Israel.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Jer-50-6|Jer 50:6]]; [[Matt-15-24|Mt 15:24]]
+- A: [[Jer-50-6|Jer 50:6]]; [[Matt-15-24|Mt 15:24]]
 

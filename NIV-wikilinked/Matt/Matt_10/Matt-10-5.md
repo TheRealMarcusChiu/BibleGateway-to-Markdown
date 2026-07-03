@@ -1,6 +1,6 @@
 # Matthew 10:5 (New International Version)
-These twelve Jesus sent out with the following instructions: "Do not go among the Gentiles or enter any town of the Samaritans.[^A] 
+These twelve Jesus sent out with the following instructions: "Do not go among the Gentiles or enter any town of the Samaritans.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[1Kgs-16-24|1Ki 16:24]]; [[2Kgs-17-24|2Ki 17:24]]; [[Luke-9-52|Lk 9:52]]; [[Luke-10-33|10:33]]; [[Luke-17-16|17:16]]; [[John-4-4|Jn 4:4-26]], [[John-4-39|39]], [[John-4-40|40]]; [[John-8-48|8:48]]; [[Acts-8-5|Ac 8:5]], [[Acts-8-25|25]]
+- A: [[1Kgs-16-24|1Ki 16:24]]; [[2Kgs-17-24|2Ki 17:24]]; [[Luke-9-52|Lk 9:52]]; [[Luke-10-33|10:33]]; [[Luke-17-16|17:16]]; [[John-4-4|Jn 4:4-26]], [[John-4-39|39]], [[John-4-40|40]]; [[John-8-48|8:48]]; [[Acts-8-5|Ac 8:5]], [[Acts-8-25|25]]
 

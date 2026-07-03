@@ -1,8 +1,8 @@
 # Matthew 6:16 (New International Version)
 Fasting
-"When you fast,[^A] do not look somber[^B] as the hypocrites do, for they disfigure their faces to show others they are fasting. Truly I tell you, they have received their reward in full. 
+"When you fast,<sup>^A</sup> do not look somber<sup>^B</sup> as the hypocrites do, for they disfigure their faces to show others they are fasting. Truly I tell you, they have received their reward in full. 
 
 ### Crossrefs
-[^A]: [[Lev-16-29|Lev 16:29]], [[Lev-16-31|31]]; [[Lev-23-27|23:27-32]]; [[Num-29-7|Nu 29:7]]
-[^B]: [[Isa-58-5|Isa 58:5]]; [[Zech-7-5|Zec 7:5]]; [[Zech-8-19|8:19]]
+- A: [[Lev-16-29|Lev 16:29]], [[Lev-16-31|31]]; [[Lev-23-27|23:27-32]]; [[Num-29-7|Nu 29:7]]
+- B: [[Isa-58-5|Isa 58:5]]; [[Zech-7-5|Zec 7:5]]; [[Zech-8-19|8:19]]
 

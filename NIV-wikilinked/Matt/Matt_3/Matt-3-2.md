@@ -1,6 +1,6 @@
 # Matthew 3:2 (New International Version)
-and saying, "Repent, for the kingdom of heaven[^A] has come near." 
+and saying, "Repent, for the kingdom of heaven<sup>^A</sup> has come near." 
 
 ### Crossrefs
-[^A]: [[Dan-7-14|Da 7:14]]; [[Matt-4-17|Mt 4:17]]; [[Matt-6-10|6:10]]; [[Matt-7-21|7:21]]; S [[Matt-25-34|25:34]]; [[Luke-11-20|Lk 11:20]]; [[Luke-17-20|17:20]], [[Luke-17-21|21]]; [[Luke-19-11|19:11]]; [[Luke-21-31|21:31]]; [[John-3-3|Jn 3:3]], [[John-3-5|5]]; [[Acts-1-3|Ac 1:3]], [[Acts-1-6|6]]
+- A: [[Dan-7-14|Da 7:14]]; [[Matt-4-17|Mt 4:17]]; [[Matt-6-10|6:10]]; [[Matt-7-21|7:21]]; S [[Matt-25-34|25:34]]; [[Luke-11-20|Lk 11:20]]; [[Luke-17-20|17:20]], [[Luke-17-21|21]]; [[Luke-19-11|19:11]]; [[Luke-21-31|21:31]]; [[John-3-3|Jn 3:3]], [[John-3-5|5]]; [[Acts-1-3|Ac 1:3]], [[Acts-1-6|6]]
 

@@ -1,7 +1,7 @@
 # John 7:35 (New International Version)
-The Jews said to one another, "Where does this man intend to go that we cannot find him? Will he go where our people live scattered[^A] among the Greeks,[^B] and teach the Greeks? 
+The Jews said to one another, "Where does this man intend to go that we cannot find him? Will he go where our people live scattered<sup>^A</sup> among the Greeks,<sup>^B</sup> and teach the Greeks? 
 
 ### Crossrefs
-[^A]: S [[Jas-1-1|Jas 1:1]]
-[^B]: [[John-12-20|Jn 12:20]]; [[Acts-17-4|Ac 17:4]]; [[Acts-18-4|18:4]]
+- A: S [[Jas-1-1|Jas 1:1]]
+- B: [[John-12-20|Jn 12:20]]; [[Acts-17-4|Ac 17:4]]; [[Acts-18-4|18:4]]
 

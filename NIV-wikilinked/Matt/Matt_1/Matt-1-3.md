@@ -1,8 +1,8 @@
 # Matthew 1:3 (New International Version)
-Judah the father of Perez and Zerah, whose mother was Tamar,[^A]
+Judah the father of Perez and Zerah, whose mother was Tamar,<sup>^A</sup>
 Perez the father of Hezron,
 Hezron the father of Ram,
 
 ### Crossrefs
-[^A]: [[Gen-38-27|Ge 38:27-30]]
+- A: [[Gen-38-27|Ge 38:27-30]]
 

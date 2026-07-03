@@ -1,6 +1,6 @@
 # Luke 8:33 (New International Version)
-When the demons came out of the man, they went into the pigs, and the herd rushed down the steep bank into the lake[^A] and was drowned.
+When the demons came out of the man, they went into the pigs, and the herd rushed down the steep bank into the lake<sup>^A</sup> and was drowned.
 
 ### Crossrefs
-[^A]: [[Luke-8-22|ver 22]], [[Luke-8-23|23]]
+- A: [[Luke-8-22|ver 22]], [[Luke-8-23|23]]
 

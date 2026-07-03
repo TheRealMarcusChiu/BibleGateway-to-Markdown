@@ -1,6 +1,6 @@
 # Luke 5:16 (New International Version)
-But Jesus often withdrew to lonely places and prayed.[^A]
+But Jesus often withdrew to lonely places and prayed.<sup>^A</sup>
 
 ### Crossrefs
-[^A]: S [[Luke-3-21|Lk 3:21]]
+- A: S [[Luke-3-21|Lk 3:21]]
 

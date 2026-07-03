@@ -1,7 +1,7 @@
 # Acts 17:1 (New International Version)
 In Thessalonica
-When Paul and his companions had passed through Amphipolis and Apollonia, they came to Thessalonica,[^A] where there was a Jewish synagogue. 
+When Paul and his companions had passed through Amphipolis and Apollonia, they came to Thessalonica,<sup>^A</sup> where there was a Jewish synagogue. 
 
 ### Crossrefs
-[^A]: [[Acts-17-11|ver 11]], [[Acts-17-13|13]]; [[Phil-4-16|Php 4:16]]; [[1Thess-1-1|1Th 1:1]]; [[2Thess-1-1|2Th 1:1]]; [[2Tim-4-10|2Ti 4:10]]
+- A: [[Acts-17-11|ver 11]], [[Acts-17-13|13]]; [[Phil-4-16|Php 4:16]]; [[1Thess-1-1|1Th 1:1]]; [[2Thess-1-1|2Th 1:1]]; [[2Tim-4-10|2Ti 4:10]]
 

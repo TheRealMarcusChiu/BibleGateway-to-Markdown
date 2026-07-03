@@ -1,6 +1,6 @@
 # Matthew 13:9 (New International Version)
-Whoever has ears, let them hear."[^A]
+Whoever has ears, let them hear."<sup>^A</sup>
 
 ### Crossrefs
-[^A]: S [[Matt-11-15|Mt 11:15]]
+- A: S [[Matt-11-15|Mt 11:15]]
 

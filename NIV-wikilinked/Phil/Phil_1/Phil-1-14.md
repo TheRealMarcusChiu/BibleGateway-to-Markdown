@@ -1,7 +1,7 @@
 # Philippians 1:14 (New International Version)
-And because of my chains,[^A] most of the brothers and sisters have become confident in the Lord and dare all the more to proclaim the gospel without fear.[^B]
+And because of my chains,<sup>^A</sup> most of the brothers and sisters have become confident in the Lord and dare all the more to proclaim the gospel without fear.<sup>^B</sup>
 
 ### Crossrefs
-[^A]: [[Phil-1-7|ver 7]], [[Phil-1-13|13]], [[Phil-1-17|17]]; S [[Acts-21-33|Ac 21:33]]
-[^B]: S [[Acts-4-29|Ac 4:29]]
+- A: [[Phil-1-7|ver 7]], [[Phil-1-13|13]], [[Phil-1-17|17]]; S [[Acts-21-33|Ac 21:33]]
+- B: S [[Acts-4-29|Ac 4:29]]
 

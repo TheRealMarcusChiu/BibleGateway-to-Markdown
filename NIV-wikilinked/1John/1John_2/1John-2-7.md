@@ -1,7 +1,7 @@
 # 1 John 2:7 (New International Version)
-Dear friends,[^A] I am not writing you a new command but an old one, which you have had since the beginning.[^B] This old command is the message you have heard. 
+Dear friends,<sup>^A</sup> I am not writing you a new command but an old one, which you have had since the beginning.<sup>^B</sup> This old command is the message you have heard. 
 
 ### Crossrefs
-[^A]: S [[1Cor-10-14|1Co 10:14]]
-[^B]: [[1John-2-24|ver 24]]; [[1John-3-11|1Jn 3:11]], [[1John-3-23|23]]; [[1John-4-21|4:21]]; [[2John-1-5|2Jn 5]], [[2John-1-6|6]]
+- A: S [[1Cor-10-14|1Co 10:14]]
+- B: [[1John-2-24|ver 24]]; [[1John-3-11|1Jn 3:11]], [[1John-3-23|23]]; [[1John-4-21|4:21]]; [[2John-1-5|2Jn 5]], [[2John-1-6|6]]
 

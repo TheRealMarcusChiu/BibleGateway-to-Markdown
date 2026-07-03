@@ -1,6 +1,6 @@
 # Luke 1:25 (New International Version)
-"The Lord has done this for me," she said. "In these days he has shown his favor and taken away my disgrace[^A] among the people."
+"The Lord has done this for me," she said. "In these days he has shown his favor and taken away my disgrace<sup>^A</sup> among the people."
 
 ### Crossrefs
-[^A]: [[Gen-30-23|Ge 30:23]]; [[Isa-4-1|Isa 4:1]]
+- A: [[Gen-30-23|Ge 30:23]]; [[Isa-4-1|Isa 4:1]]
 

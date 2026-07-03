@@ -1,6 +1,6 @@
 # John 6:49 (New International Version)
-Your ancestors ate the manna in the wilderness, yet they died.[^A] 
+Your ancestors ate the manna in the wilderness, yet they died.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[John-6-31|ver 31]], [[John-6-58|58]]
+- A: [[John-6-31|ver 31]], [[John-6-58|58]]
 

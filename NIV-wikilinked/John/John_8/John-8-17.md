@@ -1,6 +1,6 @@
 # John 8:17 (New International Version)
-In your own Law it is written that the testimony of two witnesses is true.[^A] 
+In your own Law it is written that the testimony of two witnesses is true.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: S [[Matt-18-16|Mt 18:16]]
+- A: S [[Matt-18-16|Mt 18:16]]
 

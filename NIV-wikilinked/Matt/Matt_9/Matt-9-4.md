@@ -1,6 +1,6 @@
 # Matthew 9:4 (New International Version)
-Knowing their thoughts,[^A] Jesus said, "Why do you entertain evil thoughts in your hearts? 
+Knowing their thoughts,<sup>^A</sup> Jesus said, "Why do you entertain evil thoughts in your hearts? 
 
 ### Crossrefs
-[^A]: [[Ps-94-11|Ps 94:11]]; [[Matt-12-25|Mt 12:25]]; [[Luke-6-8|Lk 6:8]]; [[Luke-9-47|9:47]]; [[Luke-11-17|11:17]]; [[John-2-25|Jn 2:25]]
+- A: [[Ps-94-11|Ps 94:11]]; [[Matt-12-25|Mt 12:25]]; [[Luke-6-8|Lk 6:8]]; [[Luke-9-47|9:47]]; [[Luke-11-17|11:17]]; [[John-2-25|Jn 2:25]]
 

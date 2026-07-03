@@ -2,8 +2,8 @@
 He said to them, "When you pray, say:
 "'Father,  
 hallowed be your name,  
-your kingdom[^A] come.
+your kingdom<sup>^A</sup> come.
 
 ### Crossrefs
-[^A]: S [[Matt-3-2|Mt 3:2]]
+- A: S [[Matt-3-2|Mt 3:2]]
 

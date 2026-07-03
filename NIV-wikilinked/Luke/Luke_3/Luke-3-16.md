@@ -1,7 +1,7 @@
 # Luke 3:16 (New International Version)
-John answered them all, "I baptize you with water.[^A] But one who is more powerful than I will come, the straps of whose sandals I am not worthy to untie. He will baptize you with the Holy Spirit and fire.[^B] 
+John answered them all, "I baptize you with water.<sup>^A</sup> But one who is more powerful than I will come, the straps of whose sandals I am not worthy to untie. He will baptize you with the Holy Spirit and fire.<sup>^B</sup> 
 
 ### Crossrefs
-[^A]: [[Luke-3-3|ver 3]]; S [[Mark-1-4|Mk 1:4]]
-[^B]: [[John-1-26|Jn 1:26]], [[John-1-33|33]]; [[Acts-1-5|Ac 1:5]]; [[Acts-2-3|2:3]]; [[Acts-11-16|11:16]]; [[Acts-19-4|19:4]]
+- A: [[Luke-3-3|ver 3]]; S [[Mark-1-4|Mk 1:4]]
+- B: [[John-1-26|Jn 1:26]], [[John-1-33|33]]; [[Acts-1-5|Ac 1:5]]; [[Acts-2-3|2:3]]; [[Acts-11-16|11:16]]; [[Acts-19-4|19:4]]
 

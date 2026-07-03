@@ -1,6 +1,6 @@
 # Luke 2:50 (New International Version)
-But they did not understand what he was saying to them.[^A]
+But they did not understand what he was saying to them.<sup>^A</sup>
 
 ### Crossrefs
-[^A]: S [[Mark-9-32|Mk 9:32]]
+- A: S [[Mark-9-32|Mk 9:32]]
 

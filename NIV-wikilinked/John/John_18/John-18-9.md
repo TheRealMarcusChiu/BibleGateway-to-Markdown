@@ -1,6 +1,6 @@
 # John 18:9 (New International Version)
-This happened so that the words he had spoken would be fulfilled: "I have not lost one of those you gave me."[^A]
+This happened so that the words he had spoken would be fulfilled: "I have not lost one of those you gave me."<sup>^A</sup>
 
 ### Crossrefs
-[^A]: S [[John-6-39|Jn 6:39]]
+- A: S [[John-6-39|Jn 6:39]]
 

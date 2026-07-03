@@ -1,8 +1,8 @@
 # Acts 8:27 (New International Version)
-So he started out, and on his way he met an Ethiopian[^A] eunuch,[^B] an important official in charge of all the treasury of the Kandake (which means "queen of the Ethiopians"). This man had gone to Jerusalem to worship,[^C] 
+So he started out, and on his way he met an Ethiopian<sup>^A</sup> eunuch,<sup>^B</sup> an important official in charge of all the treasury of the Kandake (which means "queen of the Ethiopians"). This man had gone to Jerusalem to worship,<sup>^C</sup> 
 
 ### Crossrefs
-[^A]: [[Ps-68-31|Ps 68:31]]; [[Ps-87-4|87:4]]; [[Zeph-3-10|Zep 3:10]]
-[^B]: [[Isa-56-3|Isa 56:3-5]]
-[^C]: [[1Kgs-8-41|1Ki 8:41-43]]; [[John-12-20|Jn 12:20]]
+- A: [[Ps-68-31|Ps 68:31]]; [[Ps-87-4|87:4]]; [[Zeph-3-10|Zep 3:10]]
+- B: [[Isa-56-3|Isa 56:3-5]]
+- C: [[1Kgs-8-41|1Ki 8:41-43]]; [[John-12-20|Jn 12:20]]
 

@@ -1,7 +1,7 @@
 # John 3:29 (New International Version)
-The bride belongs to the bridegroom.[^A] The friend who attends the bridegroom waits and listens for him, and is full of joy when he hears the bridegroom's voice. That joy is mine, and it is now complete.[^B] 
+The bride belongs to the bridegroom.<sup>^A</sup> The friend who attends the bridegroom waits and listens for him, and is full of joy when he hears the bridegroom's voice. That joy is mine, and it is now complete.<sup>^B</sup> 
 
 ### Crossrefs
-[^A]: [[Matt-9-15|Mt 9:15]]
-[^B]: [[John-16-24|Jn 16:24]]; [[John-17-13|17:13]]; [[Phil-2-2|Php 2:2]]; [[1John-1-4|1Jn 1:4]]; [[2John-1-12|2Jn 12]]
+- A: [[Matt-9-15|Mt 9:15]]
+- B: [[John-16-24|Jn 16:24]]; [[John-17-13|17:13]]; [[Phil-2-2|Php 2:2]]; [[1John-1-4|1Jn 1:4]]; [[2John-1-12|2Jn 12]]
 

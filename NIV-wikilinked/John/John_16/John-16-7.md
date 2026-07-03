@@ -1,7 +1,7 @@
 # John 16:7 (New International Version)
-But very truly I tell you, it is for your good that I am going away. Unless I go away, the Advocate[^A] will not come to you; but if I go, I will send him to you.[^B] 
+But very truly I tell you, it is for your good that I am going away. Unless I go away, the Advocate<sup>^A</sup> will not come to you; but if I go, I will send him to you.<sup>^B</sup> 
 
 ### Crossrefs
-[^A]: [[John-14-16|Jn 14:16]], [[John-14-26|26]]; [[John-15-26|15:26]]
-[^B]: [[John-7-39|Jn 7:39]]; [[John-14-26|14:26]]
+- A: [[John-14-16|Jn 14:16]], [[John-14-26|26]]; [[John-15-26|15:26]]
+- B: [[John-7-39|Jn 7:39]]; [[John-14-26|14:26]]
 

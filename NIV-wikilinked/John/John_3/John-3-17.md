@@ -1,7 +1,7 @@
 # John 3:17 (New International Version)
-For God did not send his Son into the world[^A] to condemn the world, but to save the world through him.[^B] 
+For God did not send his Son into the world<sup>^A</sup> to condemn the world, but to save the world through him.<sup>^B</sup> 
 
 ### Crossrefs
-[^A]: [[John-6-29|Jn 6:29]], [[John-6-57|57]]; [[John-10-36|10:36]]; [[John-11-42|11:42]]; [[John-17-8|17:8]], [[John-17-21|21]]; [[John-20-21|20:21]]
-[^B]: [[Isa-53-11|Isa 53:11]]; S [[Matt-1-21|Mt 1:21]]; S [[Luke-2-11|Lk 2:11]]; [[Luke-19-10|19:10]]; [[John-1-29|Jn 1:29]]; [[John-12-47|12:47]]; S [[Rom-11-14|Ro 11:14]]; [[1Tim-1-15|1Ti 1:15]]; [[1Tim-2-5|2:5]], [[1Tim-2-6|6]]; [[1John-2-2|1Jn 2:2]]; [[1John-3-5|3:5]]
+- A: [[John-6-29|Jn 6:29]], [[John-6-57|57]]; [[John-10-36|10:36]]; [[John-11-42|11:42]]; [[John-17-8|17:8]], [[John-17-21|21]]; [[John-20-21|20:21]]
+- B: [[Isa-53-11|Isa 53:11]]; S [[Matt-1-21|Mt 1:21]]; S [[Luke-2-11|Lk 2:11]]; [[Luke-19-10|19:10]]; [[John-1-29|Jn 1:29]]; [[John-12-47|12:47]]; S [[Rom-11-14|Ro 11:14]]; [[1Tim-1-15|1Ti 1:15]]; [[1Tim-2-5|2:5]], [[1Tim-2-6|6]]; [[1John-2-2|1Jn 2:2]]; [[1John-3-5|3:5]]
 

@@ -1,6 +1,6 @@
 # Acts 5:18 (New International Version)
-They arrested the apostles and put them in the public jail.[^A] 
+They arrested the apostles and put them in the public jail.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Acts-4-3|Ac 4:3]]
+- A: [[Acts-4-3|Ac 4:3]]
 

@@ -1,6 +1,6 @@
 # Luke 1:41 (New International Version)
-When Elizabeth heard Mary's greeting, the baby leaped in her womb, and Elizabeth was filled with the Holy Spirit.[^A] 
+When Elizabeth heard Mary's greeting, the baby leaped in her womb, and Elizabeth was filled with the Holy Spirit.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: S [[Luke-1-15|ver 15]]
+- A: S [[Luke-1-15|ver 15]]
 

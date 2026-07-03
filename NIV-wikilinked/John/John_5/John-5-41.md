@@ -1,6 +1,6 @@
 # John 5:41 (New International Version)
-"I do not accept glory from human beings,[^A] 
+"I do not accept glory from human beings,<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[John-5-44|ver 44]]
+- A: [[John-5-44|ver 44]]
 

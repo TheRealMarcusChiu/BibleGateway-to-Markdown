@@ -1,6 +1,6 @@
 # John 12:7 (New International Version)
-"Leave her alone," Jesus replied. "It was intended that she should save this perfume for the day of my burial.[^A] 
+"Leave her alone," Jesus replied. "It was intended that she should save this perfume for the day of my burial.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[John-19-40|Jn 19:40]]
+- A: [[John-19-40|Jn 19:40]]
 

@@ -1,6 +1,6 @@
 # Luke 6:40 (New International Version)
-The student is not above the teacher, but everyone who is fully trained will be like their teacher.[^A]
+The student is not above the teacher, but everyone who is fully trained will be like their teacher.<sup>^A</sup>
 
 ### Crossrefs
-[^A]: S [[John-13-16|Jn 13:16]]
+- A: S [[John-13-16|Jn 13:16]]
 

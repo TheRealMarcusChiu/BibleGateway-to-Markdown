@@ -1,7 +1,7 @@
 # Luke 9:37 (New International Version)
-Jesus Heals a Demon-Possessed Boy[^A]
+Jesus Heals a Demon-Possessed Boy<sup>^A</sup>
 The next day, when they came down from the mountain, a large crowd met him. 
 
 ### Crossrefs
-[^A]: [[Luke-9-37|9:37-42]], [[Luke-9-43|43-45pp]] — [[Matt-17-14|Mt 17:14-18]], [[Matt-17-22|22]], [[Matt-17-23|23]]; [[Mark-9-14|Mk 9:14-27]], [[Mark-9-30|30-32]]
+- A: [[Luke-9-37|9:37-42]], [[Luke-9-43|43-45pp]] — [[Matt-17-14|Mt 17:14-18]], [[Matt-17-22|22]], [[Matt-17-23|23]]; [[Mark-9-14|Mk 9:14-27]], [[Mark-9-30|30-32]]
 

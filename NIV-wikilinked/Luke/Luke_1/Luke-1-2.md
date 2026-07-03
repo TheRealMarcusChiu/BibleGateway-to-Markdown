@@ -1,8 +1,8 @@
 # Luke 1:2 (New International Version)
-just as they were handed down to us by those who from the first[^A] were eyewitnesses[^B] and servants of the word.[^C] 
+just as they were handed down to us by those who from the first<sup>^A</sup> were eyewitnesses<sup>^B</sup> and servants of the word.<sup>^C</sup> 
 
 ### Crossrefs
-[^A]: [[Mark-1-1|Mk 1:1]]; [[John-15-27|Jn 15:27]]; [[Acts-1-21|Ac 1:21]], [[Acts-1-22|22]]
-[^B]: [[Heb-2-3|Heb 2:3]]; [[1Pet-5-1|1Pe 5:1]]; [[2Pet-1-16|2Pe 1:16]]; [[1John-1-1|1Jn 1:1]]
-[^C]: S [[Mark-4-14|Mk 4:14]]
+- A: [[Mark-1-1|Mk 1:1]]; [[John-15-27|Jn 15:27]]; [[Acts-1-21|Ac 1:21]], [[Acts-1-22|22]]
+- B: [[Heb-2-3|Heb 2:3]]; [[1Pet-5-1|1Pe 5:1]]; [[2Pet-1-16|2Pe 1:16]]; [[1John-1-1|1Jn 1:1]]
+- C: S [[Mark-4-14|Mk 4:14]]
 

@@ -1,6 +1,6 @@
 # John 1:11 (New International Version)
-He came to that which was his own, but his own did not receive him.[^A] 
+He came to that which was his own, but his own did not receive him.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Isa-53-3|Isa 53:3]]
+- A: [[Isa-53-3|Isa 53:3]]
 

@@ -1,12 +1,12 @@
 # Luke 22:7 (New International Version)
-The Last Supper[^A][^B][^C][^D][^E]
-Then came the day of Unleavened Bread on which the Passover lamb had to be sacrificed.[^F] 
+The Last Supper<sup>^A</sup><sup>^B</sup><sup>^C</sup><sup>^D</sup><sup>^E</sup>
+Then came the day of Unleavened Bread on which the Passover lamb had to be sacrificed.<sup>^F</sup> 
 
 ### Crossrefs
-[^A]: [[Luke-22-7|22:7-13pp]] — [[Matt-26-17|Mt 26:17-19]]; [[Mark-14-12|Mk 14:12-16]]
-[^B]: [[Luke-22-17|22:17-20pp]] — [[Matt-26-26|Mt 26:26-29]]; [[Mark-14-22|Mk 14:22-25]]; [[1Cor-11-23|1Co 11:23-25]]
-[^C]: [[Luke-22-21|22:21-23pp]] — [[Matt-26-21|Mt 26:21-24]]; [[Mark-14-18|Mk 14:18-21]]; [[John-13-21|Jn 13:21-30]]
-[^D]: [[Luke-22-25|22:25-27pp]] — [[Matt-20-25|Mt 20:25-28]]; [[Mark-10-42|Mk 10:42-45]]
-[^E]: [[Luke-22-33|22:33]], [[Luke-22-34|34pp]] — [[Matt-26-33|Mt 26:33-35]]; [[Mark-14-29|Mk 14:29-31]]; [[John-13-37|Jn 13:37]], [[John-13-38|38]]
-[^F]: [[Exod-12-18|Ex 12:18-20]]; [[Deut-16-5|Dt 16:5-8]]; S [[Mark-14-12|Mk 14:12]]
+- A: [[Luke-22-7|22:7-13pp]] — [[Matt-26-17|Mt 26:17-19]]; [[Mark-14-12|Mk 14:12-16]]
+- B: [[Luke-22-17|22:17-20pp]] — [[Matt-26-26|Mt 26:26-29]]; [[Mark-14-22|Mk 14:22-25]]; [[1Cor-11-23|1Co 11:23-25]]
+- C: [[Luke-22-21|22:21-23pp]] — [[Matt-26-21|Mt 26:21-24]]; [[Mark-14-18|Mk 14:18-21]]; [[John-13-21|Jn 13:21-30]]
+- D: [[Luke-22-25|22:25-27pp]] — [[Matt-20-25|Mt 20:25-28]]; [[Mark-10-42|Mk 10:42-45]]
+- E: [[Luke-22-33|22:33]], [[Luke-22-34|34pp]] — [[Matt-26-33|Mt 26:33-35]]; [[Mark-14-29|Mk 14:29-31]]; [[John-13-37|Jn 13:37]], [[John-13-38|38]]
+- F: [[Exod-12-18|Ex 12:18-20]]; [[Deut-16-5|Dt 16:5-8]]; S [[Mark-14-12|Mk 14:12]]
 

@@ -1,8 +1,8 @@
 # Acts 23:9 (New International Version)
-There was a great uproar, and some of the teachers of the law who were Pharisees[^A] stood up and argued vigorously. "We find nothing wrong with this man,"[^B] they said. "What if a spirit or an angel has spoken to him?"[^C] 
+There was a great uproar, and some of the teachers of the law who were Pharisees<sup>^A</sup> stood up and argued vigorously. "We find nothing wrong with this man,"<sup>^B</sup> they said. "What if a spirit or an angel has spoken to him?"<sup>^C</sup> 
 
 ### Crossrefs
-[^A]: [[Mark-2-16|Mk 2:16]]
-[^B]: [[Acts-23-29|ver 29]]; [[Jer-26-16|Jer 26:16]]; S [[Luke-23-4|Lk 23:4]]; [[Acts-25-25|Ac 25:25]]; [[Acts-26-31|26:31]]; [[Acts-28-18|28:18]]
-[^C]: [[Acts-22-7|Ac 22:7]], [[Acts-22-17|17]], [[Acts-22-18|18]]
+- A: [[Mark-2-16|Mk 2:16]]
+- B: [[Acts-23-29|ver 29]]; [[Jer-26-16|Jer 26:16]]; S [[Luke-23-4|Lk 23:4]]; [[Acts-25-25|Ac 25:25]]; [[Acts-26-31|26:31]]; [[Acts-28-18|28:18]]
+- C: [[Acts-22-7|Ac 22:7]], [[Acts-22-17|17]], [[Acts-22-18|18]]
 

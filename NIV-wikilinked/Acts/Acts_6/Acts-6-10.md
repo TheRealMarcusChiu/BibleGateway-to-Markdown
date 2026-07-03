@@ -1,6 +1,6 @@
 # Acts 6:10 (New International Version)
-But they could not stand up against the wisdom the Spirit gave him as he spoke.[^A]
+But they could not stand up against the wisdom the Spirit gave him as he spoke.<sup>^A</sup>
 
 ### Crossrefs
-[^A]: [[Luke-21-15|Lk 21:15]]
+- A: [[Luke-21-15|Lk 21:15]]
 

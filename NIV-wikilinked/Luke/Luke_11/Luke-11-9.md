@@ -1,6 +1,6 @@
 # Luke 11:9 (New International Version)
-"So I say to you: Ask and it will be given to you;[^A] seek and you will find; knock and the door will be opened to you. 
+"So I say to you: Ask and it will be given to you;<sup>^A</sup> seek and you will find; knock and the door will be opened to you. 
 
 ### Crossrefs
-[^A]: S [[Matt-7-7|Mt 7:7]]
+- A: S [[Matt-7-7|Mt 7:7]]
 

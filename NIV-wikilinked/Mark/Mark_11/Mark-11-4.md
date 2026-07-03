@@ -1,6 +1,6 @@
 # Mark 11:4 (New International Version)
-They went and found a colt outside in the street, tied at a doorway.[^A] As they untied it, 
+They went and found a colt outside in the street, tied at a doorway.<sup>^A</sup> As they untied it, 
 
 ### Crossrefs
-[^A]: [[Mark-14-16|Mk 14:16]]
+- A: [[Mark-14-16|Mk 14:16]]
 

@@ -1,6 +1,6 @@
 # Mark 3:16 (New International Version)
-These are the twelve he appointed: Simon (to whom he gave the name Peter),[^A] 
+These are the twelve he appointed: Simon (to whom he gave the name Peter),<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[John-1-42|Jn 1:42]]
+- A: [[John-1-42|Jn 1:42]]
 

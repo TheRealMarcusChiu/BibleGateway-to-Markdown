@@ -1,6 +1,6 @@
 # John 4:48 (New International Version)
-"Unless you people see signs and wonders,"[^A] Jesus told him, "you will never believe."
+"Unless you people see signs and wonders,"<sup>^A</sup> Jesus told him, "you will never believe."
 
 ### Crossrefs
-[^A]: [[Dan-4-2|Da 4:2]], [[Dan-4-3|3]]; S [[John-2-11|Jn 2:11]]; [[Acts-2-43|Ac 2:43]]; [[Acts-14-3|14:3]]; [[Rom-15-19|Ro 15:19]]; [[2Cor-12-12|2Co 12:12]]; [[Heb-2-4|Heb 2:4]]
+- A: [[Dan-4-2|Da 4:2]], [[Dan-4-3|3]]; S [[John-2-11|Jn 2:11]]; [[Acts-2-43|Ac 2:43]]; [[Acts-14-3|14:3]]; [[Rom-15-19|Ro 15:19]]; [[2Cor-12-12|2Co 12:12]]; [[Heb-2-4|Heb 2:4]]
 

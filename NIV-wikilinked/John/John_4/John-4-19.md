@@ -1,6 +1,6 @@
 # John 4:19 (New International Version)
-"Sir," the woman said, "I can see that you are a prophet.[^A] 
+"Sir," the woman said, "I can see that you are a prophet.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: S [[Matt-21-11|Mt 21:11]]
+- A: S [[Matt-21-11|Mt 21:11]]
 

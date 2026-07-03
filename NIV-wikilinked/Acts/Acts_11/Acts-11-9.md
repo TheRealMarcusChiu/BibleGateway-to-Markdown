@@ -1,6 +1,6 @@
 # Acts 11:9 (New International Version)
-"The voice spoke from heaven a second time, 'Do not call anything impure that God has made clean.'[^A] 
+"The voice spoke from heaven a second time, 'Do not call anything impure that God has made clean.'<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: S [[Acts-10-15|Ac 10:15]]
+- A: S [[Acts-10-15|Ac 10:15]]
 

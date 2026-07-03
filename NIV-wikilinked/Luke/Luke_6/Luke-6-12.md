@@ -1,8 +1,8 @@
 # Luke 6:12 (New International Version)
-The Twelve Apostles[^A]
-One of those days Jesus went out to a mountainside to pray, and spent the night praying to God.[^B] 
+The Twelve Apostles<sup>^A</sup>
+One of those days Jesus went out to a mountainside to pray, and spent the night praying to God.<sup>^B</sup> 
 
 ### Crossrefs
-[^A]: [[Luke-6-13|6:13-16pp]] — [[Matt-10-2|Mt 10:2-4]]; [[Mark-3-16|Mk 3:16-19]]; [[Acts-1-13|Ac 1:13]]
-[^B]: S [[Luke-3-21|Lk 3:21]]
+- A: [[Luke-6-13|6:13-16pp]] — [[Matt-10-2|Mt 10:2-4]]; [[Mark-3-16|Mk 3:16-19]]; [[Acts-1-13|Ac 1:13]]
+- B: S [[Luke-3-21|Lk 3:21]]
 

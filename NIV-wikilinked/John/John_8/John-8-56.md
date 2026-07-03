@@ -1,7 +1,7 @@
 # John 8:56 (New International Version)
-Your father Abraham[^A] rejoiced at the thought of seeing my day; he saw it[^B] and was glad."
+Your father Abraham<sup>^A</sup> rejoiced at the thought of seeing my day; he saw it<sup>^B</sup> and was glad."
 
 ### Crossrefs
-[^A]: [[John-8-37|ver 37]], [[John-8-39|39]]; [[Gen-18-18|Ge 18:18]]
-[^B]: S [[Matt-13-17|Mt 13:17]]
+- A: [[John-8-37|ver 37]], [[John-8-39|39]]; [[Gen-18-18|Ge 18:18]]
+- B: S [[Matt-13-17|Mt 13:17]]
 

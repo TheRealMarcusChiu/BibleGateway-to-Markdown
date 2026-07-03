@@ -1,6 +1,6 @@
 # Mark 7:9 (New International Version)
-And he continued, "You have a fine way of setting aside the commands of God in order to observe your own traditions![^A] 
+And he continued, "You have a fine way of setting aside the commands of God in order to observe your own traditions!<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: S [[Mark-7-3|ver 3]]
+- A: S [[Mark-7-3|ver 3]]
 

@@ -1,6 +1,6 @@
 # Matthew 16:4 (New International Version)
-A wicked and adulterous generation looks for a sign, but none will be given it except the sign of Jonah."[^A] Jesus then left them and went away.
+A wicked and adulterous generation looks for a sign, but none will be given it except the sign of Jonah."<sup>^A</sup> Jesus then left them and went away.
 
 ### Crossrefs
-[^A]: [[Matt-12-39|Mt 12:39]]
+- A: [[Matt-12-39|Mt 12:39]]
 

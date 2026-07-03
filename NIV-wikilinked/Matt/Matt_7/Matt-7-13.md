@@ -1,7 +1,7 @@
 # Matthew 7:13 (New International Version)
 The Narrow and Wide Gates
-"Enter through the narrow gate.[^A] For wide is the gate and broad is the road that leads to destruction, and many enter through it. 
+"Enter through the narrow gate.<sup>^A</sup> For wide is the gate and broad is the road that leads to destruction, and many enter through it. 
 
 ### Crossrefs
-[^A]: [[Luke-13-24|Lk 13:24]]; [[John-10-7|Jn 10:7]], [[John-10-9|9]]
+- A: [[Luke-13-24|Lk 13:24]]; [[John-10-7|Jn 10:7]], [[John-10-9|9]]
 

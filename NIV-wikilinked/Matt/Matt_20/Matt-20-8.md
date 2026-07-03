@@ -1,6 +1,6 @@
 # Matthew 20:8 (New International Version)
-"When evening came,[^A] the owner of the vineyard said to his foreman, 'Call the workers and pay them their wages, beginning with the last ones hired and going on to the first.'
+"When evening came,<sup>^A</sup> the owner of the vineyard said to his foreman, 'Call the workers and pay them their wages, beginning with the last ones hired and going on to the first.'
 
 ### Crossrefs
-[^A]: [[Lev-19-13|Lev 19:13]]; [[Deut-24-15|Dt 24:15]]
+- A: [[Lev-19-13|Lev 19:13]]; [[Deut-24-15|Dt 24:15]]
 

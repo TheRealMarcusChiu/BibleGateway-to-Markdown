@@ -1,6 +1,6 @@
 # John 9:31 (New International Version)
-We know that God does not listen to sinners. He listens to the godly person who does his will.[^A] 
+We know that God does not listen to sinners. He listens to the godly person who does his will.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Gen-18-23|Ge 18:23-32]]; [[Ps-34-15|Ps 34:15]], [[Ps-34-16|16]]; [[Ps-66-18|66:18]]; [[Ps-145-19|145:19]], [[Ps-145-20|20]]; [[Prov-15-29|Pr 15:29]]; [[Isa-1-15|Isa 1:15]]; [[Isa-59-1|59:1]], [[Isa-59-2|2]]; [[John-15-7|Jn 15:7]]; [[Jas-5-16|Jas 5:16-18]]; [[1John-5-14|1Jn 5:14]], [[1John-5-15|15]]
+- A: [[Gen-18-23|Ge 18:23-32]]; [[Ps-34-15|Ps 34:15]], [[Ps-34-16|16]]; [[Ps-66-18|66:18]]; [[Ps-145-19|145:19]], [[Ps-145-20|20]]; [[Prov-15-29|Pr 15:29]]; [[Isa-1-15|Isa 1:15]]; [[Isa-59-1|59:1]], [[Isa-59-2|2]]; [[John-15-7|Jn 15:7]]; [[Jas-5-16|Jas 5:16-18]]; [[1John-5-14|1Jn 5:14]], [[1John-5-15|15]]
 

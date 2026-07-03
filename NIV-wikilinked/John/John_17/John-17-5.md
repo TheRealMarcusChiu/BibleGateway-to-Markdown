@@ -1,8 +1,8 @@
 # John 17:5 (New International Version)
-And now, Father, glorify me[^A] in your presence with the glory I had with you[^B] before the world began.[^C]
+And now, Father, glorify me<sup>^A</sup> in your presence with the glory I had with you<sup>^B</sup> before the world began.<sup>^C</sup>
 
 ### Crossrefs
-[^A]: [[John-17-1|ver 1]]
-[^B]: [[Phil-2-6|Php 2:6]]
-[^C]: S [[John-1-2|Jn 1:2]]
+- A: [[John-17-1|ver 1]]
+- B: [[Phil-2-6|Php 2:6]]
+- C: S [[John-1-2|Jn 1:2]]
 

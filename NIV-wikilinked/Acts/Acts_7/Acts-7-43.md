@@ -2,8 +2,8 @@
 You have taken up the tabernacle of Molek  
     and the star of your god Rephan,  
     the idols you made to worship.  
-Therefore I will send you into exile'[^A] beyond Babylon.
+Therefore I will send you into exile'<sup>^A</sup> beyond Babylon.
 
 ### Crossrefs
-[^A]: [[Amos-5-25|Am 5:25-27]]
+- A: [[Amos-5-25|Am 5:25-27]]
 

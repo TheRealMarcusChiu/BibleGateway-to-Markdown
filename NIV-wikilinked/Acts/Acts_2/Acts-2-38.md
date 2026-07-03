@@ -1,8 +1,8 @@
 # Acts 2:38 (New International Version)
-Peter replied, "Repent and be baptized,[^A] every one of you, in the name of Jesus Christ for the forgiveness of your sins.[^B] And you will receive the gift of the Holy Spirit.[^C] 
+Peter replied, "Repent and be baptized,<sup>^A</sup> every one of you, in the name of Jesus Christ for the forgiveness of your sins.<sup>^B</sup> And you will receive the gift of the Holy Spirit.<sup>^C</sup> 
 
 ### Crossrefs
-[^A]: [[Acts-2-41|ver 41]]; [[Acts-8-12|Ac 8:12]], [[Acts-8-16|16]], [[Acts-8-36|36]], [[Acts-8-38|38]]; [[Acts-9-18|9:18]]; [[Acts-10-48|10:48]]; [[Acts-16-15|16:15]], [[Acts-16-33|33]]; [[Acts-19-5|19:5]]; [[Acts-22-16|22:16]]; [[Col-2-12|Col 2:12]]
-[^B]: [[Jer-36-3|Jer 36:3]]; [[Mark-1-4|Mk 1:4]]; S [[Luke-24-47|Lk 24:47]]; [[Acts-3-19|Ac 3:19]]
-[^C]: S [[John-20-22|Jn 20:22]]
+- A: [[Acts-2-41|ver 41]]; [[Acts-8-12|Ac 8:12]], [[Acts-8-16|16]], [[Acts-8-36|36]], [[Acts-8-38|38]]; [[Acts-9-18|9:18]]; [[Acts-10-48|10:48]]; [[Acts-16-15|16:15]], [[Acts-16-33|33]]; [[Acts-19-5|19:5]]; [[Acts-22-16|22:16]]; [[Col-2-12|Col 2:12]]
+- B: [[Jer-36-3|Jer 36:3]]; [[Mark-1-4|Mk 1:4]]; S [[Luke-24-47|Lk 24:47]]; [[Acts-3-19|Ac 3:19]]
+- C: S [[John-20-22|Jn 20:22]]
 

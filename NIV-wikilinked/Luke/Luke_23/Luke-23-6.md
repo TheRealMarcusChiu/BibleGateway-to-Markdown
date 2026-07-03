@@ -1,6 +1,6 @@
 # Luke 23:6 (New International Version)
-On hearing this, Pilate asked if the man was a Galilean.[^A] 
+On hearing this, Pilate asked if the man was a Galilean.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Luke-22-59|Lk 22:59]]
+- A: [[Luke-22-59|Lk 22:59]]
 

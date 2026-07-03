@@ -1,8 +1,8 @@
 # Luke 4:16 (New International Version)
-He went to Nazareth,[^A] where he had been brought up, and on the Sabbath day he went into the synagogue,[^B] as was his custom. He stood up to read,[^C] 
+He went to Nazareth,<sup>^A</sup> where he had been brought up, and on the Sabbath day he went into the synagogue,<sup>^B</sup> as was his custom. He stood up to read,<sup>^C</sup> 
 
 ### Crossrefs
-[^A]: S [[Matt-2-23|Mt 2:23]]
-[^B]: [[Matt-13-54|Mt 13:54]]
-[^C]: S [[1Tim-4-13|1Ti 4:13]]
+- A: S [[Matt-2-23|Mt 2:23]]
+- B: [[Matt-13-54|Mt 13:54]]
+- C: S [[1Tim-4-13|1Ti 4:13]]
 

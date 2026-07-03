@@ -1,6 +1,6 @@
 # Mark 7:11 (New International Version)
-But you say[^A] that if anyone declares that what might have been used to help their father or mother is Corban (that is, devoted to God)-- 
+But you say<sup>^A</sup> that if anyone declares that what might have been used to help their father or mother is Corban (that is, devoted to God)-- 
 
 ### Crossrefs
-[^A]: [[Matt-23-16|Mt 23:16]], [[Matt-23-18|18]]
+- A: [[Matt-23-16|Mt 23:16]], [[Matt-23-18|18]]
 

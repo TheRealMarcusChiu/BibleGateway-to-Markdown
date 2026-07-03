@@ -1,6 +1,6 @@
 # John 2:6 (New International Version)
-Nearby stood six stone water jars, the kind used by the Jews for ceremonial washing,[^A] each holding from twenty to thirty gallons.
+Nearby stood six stone water jars, the kind used by the Jews for ceremonial washing,<sup>^A</sup> each holding from twenty to thirty gallons.
 
 ### Crossrefs
-[^A]: [[Mark-7-3|Mk 7:3]], [[Mark-7-4|4]]; [[John-3-25|Jn 3:25]]
+- A: [[Mark-7-3|Mk 7:3]], [[Mark-7-4|4]]; [[John-3-25|Jn 3:25]]
 

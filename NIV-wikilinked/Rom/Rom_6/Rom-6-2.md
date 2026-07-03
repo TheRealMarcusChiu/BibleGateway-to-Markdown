@@ -1,6 +1,6 @@
 # Romans 6:2 (New International Version)
-By no means! We are those who have died to sin;[^A] how can we live in it any longer? 
+By no means! We are those who have died to sin;<sup>^A</sup> how can we live in it any longer? 
 
 ### Crossrefs
-[^A]: S [[Rom-6-6|ver 6]]; [[Rom-6-10|ver 10]], [[Rom-6-11|11]]; S [[Rom-6-18|ver 18]]; [[Rom-8-13|Ro 8:13]]; [[Col-3-3|Col 3:3]], [[Col-3-5|5]]; [[1Pet-2-24|1Pe 2:24]]
+- A: S [[Rom-6-6|ver 6]]; [[Rom-6-10|ver 10]], [[Rom-6-11|11]]; S [[Rom-6-18|ver 18]]; [[Rom-8-13|Ro 8:13]]; [[Col-3-3|Col 3:3]], [[Col-3-5|5]]; [[1Pet-2-24|1Pe 2:24]]
 

@@ -1,6 +1,6 @@
 # Luke 7:7 (New International Version)
-That is why I did not even consider myself worthy to come to you. But say the word, and my servant will be healed.[^A] 
+That is why I did not even consider myself worthy to come to you. But say the word, and my servant will be healed.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Ps-107-20|Ps 107:20]]
+- A: [[Ps-107-20|Ps 107:20]]
 

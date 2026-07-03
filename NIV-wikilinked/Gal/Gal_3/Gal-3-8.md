@@ -1,6 +1,6 @@
 # Galatians 3:8 (New International Version)
-Scripture foresaw that God would justify the Gentiles by faith, and announced the gospel in advance to Abraham: "All nations will be blessed through you."[^A] 
+Scripture foresaw that God would justify the Gentiles by faith, and announced the gospel in advance to Abraham: "All nations will be blessed through you."<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Gen-12-3|Ge 12:3]]; [[Gen-18-18|18:18]]; [[Gen-22-18|22:18]]; [[Gen-26-4|26:4]]; [[Acts-3-25|Ac 3:25]]
+- A: [[Gen-12-3|Ge 12:3]]; [[Gen-18-18|18:18]]; [[Gen-22-18|22:18]]; [[Gen-26-4|26:4]]; [[Acts-3-25|Ac 3:25]]
 

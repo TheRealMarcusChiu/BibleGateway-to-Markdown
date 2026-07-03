@@ -1,10 +1,10 @@
 # John 1:21 (New International Version)
-They asked him, "Then who are you? Are you Elijah?"[^A]
+They asked him, "Then who are you? Are you Elijah?"<sup>^A</sup>
 He said, "I am not."
-"Are you the Prophet?"[^B]
+"Are you the Prophet?"<sup>^B</sup>
 He answered, "No."
 
 ### Crossrefs
-[^A]: S [[Matt-11-14|Mt 11:14]]
-[^B]: [[Deut-18-15|Dt 18:15]]
+- A: S [[Matt-11-14|Mt 11:14]]
+- B: [[Deut-18-15|Dt 18:15]]
 

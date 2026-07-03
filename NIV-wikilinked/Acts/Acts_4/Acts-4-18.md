@@ -1,6 +1,6 @@
 # Acts 4:18 (New International Version)
-Then they called them in again and commanded them not to speak or teach at all in the name of Jesus.[^A] 
+Then they called them in again and commanded them not to speak or teach at all in the name of Jesus.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Amos-7-13|Am 7:13]]; [[Acts-5-40|Ac 5:40]]
+- A: [[Amos-7-13|Am 7:13]]; [[Acts-5-40|Ac 5:40]]
 

@@ -1,6 +1,6 @@
 # Acts 2:15 (New International Version)
-These people are not drunk, as you suppose. It's only nine in the morning![^A] 
+These people are not drunk, as you suppose. It's only nine in the morning!<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[1Thess-5-7|1Th 5:7]]
+- A: [[1Thess-5-7|1Th 5:7]]
 

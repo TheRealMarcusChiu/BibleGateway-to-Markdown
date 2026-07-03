@@ -1,6 +1,6 @@
 # Philippians 2:28 (New International Version)
-Therefore I am all the more eager to send him,[^A] so that when you see him again you may be glad and I may have less anxiety. 
+Therefore I am all the more eager to send him,<sup>^A</sup> so that when you see him again you may be glad and I may have less anxiety. 
 
 ### Crossrefs
-[^A]: [[Phil-2-25|ver 25]]
+- A: [[Phil-2-25|ver 25]]
 

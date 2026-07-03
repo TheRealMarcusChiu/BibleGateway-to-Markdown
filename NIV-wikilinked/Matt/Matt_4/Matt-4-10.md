@@ -1,7 +1,7 @@
 # Matthew 4:10 (New International Version)
-Jesus said to him, "Away from me, Satan![^A] For it is written: 'Worship the Lord your God, and serve him only.'"[^B]
+Jesus said to him, "Away from me, Satan!<sup>^A</sup> For it is written: 'Worship the Lord your God, and serve him only.'"<sup>^B</sup>
 
 ### Crossrefs
-[^A]: [[1Chr-21-1|1Ch 21:1]]; [[Job-1-6|Job 1:6-9]]; [[Matt-16-23|Mt 16:23]]; [[Mark-4-15|Mk 4:15]]; [[Luke-10-18|Lk 10:18]]; [[Luke-13-16|13:16]]; [[Luke-22-3|22:3]], [[Luke-22-31|31]]; [[Rom-16-20|Ro 16:20]]; [[2Cor-2-11|2Co 2:11]]; [[2Cor-11-14|11:14]]; [[2Thess-2-9|2Th 2:9]]; [[Rev-12-9|Rev 12:9]]
-[^B]: [[Deut-6-13|Dt 6:13]]
+- A: [[1Chr-21-1|1Ch 21:1]]; [[Job-1-6|Job 1:6-9]]; [[Matt-16-23|Mt 16:23]]; [[Mark-4-15|Mk 4:15]]; [[Luke-10-18|Lk 10:18]]; [[Luke-13-16|13:16]]; [[Luke-22-3|22:3]], [[Luke-22-31|31]]; [[Rom-16-20|Ro 16:20]]; [[2Cor-2-11|2Co 2:11]]; [[2Cor-11-14|11:14]]; [[2Thess-2-9|2Th 2:9]]; [[Rev-12-9|Rev 12:9]]
+- B: [[Deut-6-13|Dt 6:13]]
 

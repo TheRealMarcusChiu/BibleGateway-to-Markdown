@@ -1,6 +1,6 @@
 # Matthew 5:18 (New International Version)
-For truly I tell you, until heaven and earth disappear, not the smallest letter, not the least stroke of a pen, will by any means disappear from the Law until everything is accomplished.[^A] 
+For truly I tell you, until heaven and earth disappear, not the smallest letter, not the least stroke of a pen, will by any means disappear from the Law until everything is accomplished.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Ps-119-89|Ps 119:89]]; [[Isa-40-8|Isa 40:8]]; [[Isa-55-11|55:11]]; [[Matt-24-35|Mt 24:35]]; [[Mark-13-31|Mk 13:31]]; [[Luke-16-17|Lk 16:17]]; [[Luke-21-33|21:33]]
+- A: [[Ps-119-89|Ps 119:89]]; [[Isa-40-8|Isa 40:8]]; [[Isa-55-11|55:11]]; [[Matt-24-35|Mt 24:35]]; [[Mark-13-31|Mk 13:31]]; [[Luke-16-17|Lk 16:17]]; [[Luke-21-33|21:33]]
 

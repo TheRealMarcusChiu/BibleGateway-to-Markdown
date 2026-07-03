@@ -2,12 +2,12 @@
 The Son Superior to Angels
 For to which of the angels did God ever say,
 "You are my Son;  
-    today I have become your Father"?[^A]
+    today I have become your Father"?<sup>^A</sup>
 Or again,
 "I will be his Father,  
-    and he will be my Son"?[^B]
+    and he will be my Son"?<sup>^B</sup>
 
 ### Crossrefs
-[^A]: [[Ps-2-7|Ps 2:7]]; S [[Matt-3-17|Mt 3:17]]
-[^B]: [[2Sam-7-14|2Sa 7:14]]
+- A: [[Ps-2-7|Ps 2:7]]; S [[Matt-3-17|Mt 3:17]]
+- B: [[2Sam-7-14|2Sa 7:14]]
 

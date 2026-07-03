@@ -1,6 +1,6 @@
 # Mark 8:11 (New International Version)
-The Pharisees came and began to question Jesus. To test him, they asked him for a sign from heaven.[^A] 
+The Pharisees came and began to question Jesus. To test him, they asked him for a sign from heaven.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: S [[Matt-12-38|Mt 12:38]]
+- A: S [[Matt-12-38|Mt 12:38]]
 

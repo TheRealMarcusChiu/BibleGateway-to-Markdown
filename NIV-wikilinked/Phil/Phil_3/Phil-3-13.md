@@ -1,6 +1,6 @@
 # Philippians 3:13 (New International Version)
-Brothers and sisters, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind[^A] and straining toward what is ahead, 
+Brothers and sisters, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind<sup>^A</sup> and straining toward what is ahead, 
 
 ### Crossrefs
-[^A]: [[Luke-9-62|Lk 9:62]]
+- A: [[Luke-9-62|Lk 9:62]]
 

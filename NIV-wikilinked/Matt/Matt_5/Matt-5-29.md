@@ -1,6 +1,6 @@
 # Matthew 5:29 (New International Version)
-If your right eye causes you to stumble,[^A] gouge it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into hell. 
+If your right eye causes you to stumble,<sup>^A</sup> gouge it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into hell. 
 
 ### Crossrefs
-[^A]: [[Matt-5-30|ver 30]]; [[Matt-18-6|Mt 18:6]], [[Matt-18-8|8]], [[Matt-18-9|9]]; [[Mark-9-42|Mk 9:42-47]]; [[Luke-17-2|Lk 17:2]]; [[Rom-14-21|Ro 14:21]]; [[1Cor-8-13|1Co 8:13]]; S [[2Cor-6-3|2Co 6:3]]; [[2Cor-11-29|11:29]]
+- A: [[Matt-5-30|ver 30]]; [[Matt-18-6|Mt 18:6]], [[Matt-18-8|8]], [[Matt-18-9|9]]; [[Mark-9-42|Mk 9:42-47]]; [[Luke-17-2|Lk 17:2]]; [[Rom-14-21|Ro 14:21]]; [[1Cor-8-13|1Co 8:13]]; S [[2Cor-6-3|2Co 6:3]]; [[2Cor-11-29|11:29]]
 

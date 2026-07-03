@@ -1,6 +1,6 @@
 # John 6:47 (New International Version)
-Very truly I tell you, the one who believes has eternal life.[^A] 
+Very truly I tell you, the one who believes has eternal life.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: S [[Matt-25-46|Mt 25:46]]
+- A: S [[Matt-25-46|Mt 25:46]]
 

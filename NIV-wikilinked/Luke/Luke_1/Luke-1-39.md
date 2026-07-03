@@ -1,7 +1,7 @@
 # Luke 1:39 (New International Version)
 Mary Visits Elizabeth
-At that time Mary got ready and hurried to a town in the hill country of Judea,[^A] 
+At that time Mary got ready and hurried to a town in the hill country of Judea,<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Luke-1-65|ver 65]]
+- A: [[Luke-1-65|ver 65]]
 

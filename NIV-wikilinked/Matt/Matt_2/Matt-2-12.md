@@ -1,7 +1,7 @@
 # Matthew 2:12 (New International Version)
-And having been warned[^A] in a dream[^B] not to go back to Herod, they returned to their country by another route.
+And having been warned<sup>^A</sup> in a dream<sup>^B</sup> not to go back to Herod, they returned to their country by another route.
 
 ### Crossrefs
-[^A]: [[Heb-11-7|Heb 11:7]]
-[^B]: [[Matt-2-13|ver 13]], [[Matt-2-19|19]], [[Matt-2-22|22]]; S [[Matt-27-19|Mt 27:19]]
+- A: [[Heb-11-7|Heb 11:7]]
+- B: [[Matt-2-13|ver 13]], [[Matt-2-19|19]], [[Matt-2-22|22]]; S [[Matt-27-19|Mt 27:19]]
 

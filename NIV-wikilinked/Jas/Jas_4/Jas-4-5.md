@@ -1,6 +1,6 @@
 # James 4:5 (New International Version)
-Or do you think Scripture says without reason that he jealously longs for the spirit he has caused to dwell in us?[^A] 
+Or do you think Scripture says without reason that he jealously longs for the spirit he has caused to dwell in us?<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[1Cor-6-19|1Co 6:19]]
+- A: [[1Cor-6-19|1Co 6:19]]
 

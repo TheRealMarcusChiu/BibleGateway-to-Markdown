@@ -1,7 +1,7 @@
 # James 5:8 (New International Version)
-You too, be patient and stand firm, because the Lord's coming[^A] is near.[^B] 
+You too, be patient and stand firm, because the Lord's coming<sup>^A</sup> is near.<sup>^B</sup> 
 
 ### Crossrefs
-[^A]: S [[1Cor-1-7|1Co 1:7]]
-[^B]: S [[Rom-13-11|Ro 13:11]]
+- A: S [[1Cor-1-7|1Co 1:7]]
+- B: S [[Rom-13-11|Ro 13:11]]
 

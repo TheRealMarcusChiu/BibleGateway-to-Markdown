@@ -1,6 +1,6 @@
 # Acts 10:2 (New International Version)
-He and all his family were devout and God-fearing;[^A] he gave generously to those in need and prayed to God regularly. 
+He and all his family were devout and God-fearing;<sup>^A</sup> he gave generously to those in need and prayed to God regularly. 
 
 ### Crossrefs
-[^A]: [[Acts-10-22|ver 22]], [[Acts-10-35|35]]; [[Acts-13-16|Ac 13:16]], [[Acts-13-26|26]]
+- A: [[Acts-10-22|ver 22]], [[Acts-10-35|35]]; [[Acts-13-16|Ac 13:16]], [[Acts-13-26|26]]
 

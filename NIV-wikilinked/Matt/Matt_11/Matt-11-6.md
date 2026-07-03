@@ -1,6 +1,6 @@
 # Matthew 11:6 (New International Version)
-Blessed is anyone who does not stumble on account of me."[^A]
+Blessed is anyone who does not stumble on account of me."<sup>^A</sup>
 
 ### Crossrefs
-[^A]: [[Matt-13-21|Mt 13:21]]; [[Matt-26-31|26:31]]
+- A: [[Matt-13-21|Mt 13:21]]; [[Matt-26-31|26:31]]
 

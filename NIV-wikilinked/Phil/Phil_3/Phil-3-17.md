@@ -1,7 +1,7 @@
 # Philippians 3:17 (New International Version)
-Join together in following my example,[^A] brothers and sisters, and just as you have us as a model, keep your eyes on those who live as we do.[^B] 
+Join together in following my example,<sup>^A</sup> brothers and sisters, and just as you have us as a model, keep your eyes on those who live as we do.<sup>^B</sup> 
 
 ### Crossrefs
-[^A]: S [[1Cor-4-16|1Co 4:16]]
-[^B]: S [[1Tim-4-12|1Ti 4:12]]
+- A: S [[1Cor-4-16|1Co 4:16]]
+- B: S [[1Tim-4-12|1Ti 4:12]]
 

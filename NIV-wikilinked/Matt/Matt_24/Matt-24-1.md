@@ -1,7 +1,7 @@
 # Matthew 24:1 (New International Version)
-The Destruction of the Temple and Signs of the End Times[^A]
+The Destruction of the Temple and Signs of the End Times<sup>^A</sup>
 Jesus left the temple and was walking away when his disciples came up to him to call his attention to its buildings. 
 
 ### Crossrefs
-[^A]: [[Matt-24-1|24:1-51pp]] — [[Mark-13-1|Mk 13:1-37]]; [[Luke-21-5|Lk 21:5-36]]
+- A: [[Matt-24-1|24:1-51pp]] — [[Mark-13-1|Mk 13:1-37]]; [[Luke-21-5|Lk 21:5-36]]
 

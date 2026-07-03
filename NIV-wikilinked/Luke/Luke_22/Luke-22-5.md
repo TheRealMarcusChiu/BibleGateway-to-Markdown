@@ -1,6 +1,6 @@
 # Luke 22:5 (New International Version)
-They were delighted and agreed to give him money.[^A] 
+They were delighted and agreed to give him money.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[Zech-11-12|Zec 11:12]]
+- A: [[Zech-11-12|Zec 11:12]]
 

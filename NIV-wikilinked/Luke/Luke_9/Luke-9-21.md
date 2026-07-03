@@ -1,7 +1,7 @@
 # Luke 9:21 (New International Version)
 Jesus Predicts His Death
-Jesus strictly warned them not to tell this to anyone.[^A] 
+Jesus strictly warned them not to tell this to anyone.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: S [[Mark-8-30|Mk 8:30]]
+- A: S [[Mark-8-30|Mk 8:30]]
 

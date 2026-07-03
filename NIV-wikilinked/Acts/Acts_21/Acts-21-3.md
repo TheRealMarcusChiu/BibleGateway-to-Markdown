@@ -1,6 +1,6 @@
 # Acts 21:3 (New International Version)
-After sighting Cyprus and passing to the south of it, we sailed on to Syria.[^A] We landed at Tyre, where our ship was to unload its cargo. 
+After sighting Cyprus and passing to the south of it, we sailed on to Syria.<sup>^A</sup> We landed at Tyre, where our ship was to unload its cargo. 
 
 ### Crossrefs
-[^A]: S [[Luke-2-2|Lk 2:2]]
+- A: S [[Luke-2-2|Lk 2:2]]
 

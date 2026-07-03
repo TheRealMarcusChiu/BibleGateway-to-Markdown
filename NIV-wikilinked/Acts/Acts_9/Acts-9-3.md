@@ -1,6 +1,6 @@
 # Acts 9:3 (New International Version)
-As he neared Damascus on his journey, suddenly a light from heaven flashed around him.[^A] 
+As he neared Damascus on his journey, suddenly a light from heaven flashed around him.<sup>^A</sup> 
 
 ### Crossrefs
-[^A]: [[1Cor-15-8|1Co 15:8]]
+- A: [[1Cor-15-8|1Co 15:8]]
 

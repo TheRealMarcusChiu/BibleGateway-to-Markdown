@@ -1,8 +1,8 @@
 # Luke 19:8 (New International Version)
-But Zacchaeus stood up and said to the Lord,[^A] "Look, Lord! Here and now I give half of my possessions to the poor, and if I have cheated anybody out of anything,[^B] I will pay back four times the amount."[^C]
+But Zacchaeus stood up and said to the Lord,<sup>^A</sup> "Look, Lord! Here and now I give half of my possessions to the poor, and if I have cheated anybody out of anything,<sup>^B</sup> I will pay back four times the amount."<sup>^C</sup>
 
 ### Crossrefs
-[^A]: S [[Luke-7-13|Lk 7:13]]
-[^B]: [[Luke-3-12|Lk 3:12]], [[Luke-3-13|13]]
-[^C]: [[Exod-22-1|Ex 22:1]]; [[Lev-6-4|Lev 6:4]], [[Lev-6-5|5]]; [[Num-5-7|Nu 5:7]]; [[2Sam-12-6|2Sa 12:6]]; [[Ezek-33-14|Eze 33:14]], [[Ezek-33-15|15]]
+- A: S [[Luke-7-13|Lk 7:13]]
+- B: [[Luke-3-12|Lk 3:12]], [[Luke-3-13|13]]
+- C: [[Exod-22-1|Ex 22:1]]; [[Lev-6-4|Lev 6:4]], [[Lev-6-5|5]]; [[Num-5-7|Nu 5:7]]; [[2Sam-12-6|2Sa 12:6]]; [[Ezek-33-14|Eze 33:14]], [[Ezek-33-15|15]]
 

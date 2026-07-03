@@ -1,6 +1,6 @@
 # Luke 2:38 (New International Version)
-Coming up to them at that very moment, she gave thanks to God and spoke about the child to all who were looking forward to the redemption of Jerusalem.[^A]
+Coming up to them at that very moment, she gave thanks to God and spoke about the child to all who were looking forward to the redemption of Jerusalem.<sup>^A</sup>
 
 ### Crossrefs
-[^A]: [[Luke-2-25|ver 25]]; [[Isa-40-2|Isa 40:2]]; [[Isa-52-9|52:9]]; [[Luke-1-68|Lk 1:68]]; [[Luke-24-21|24:21]]
+- A: [[Luke-2-25|ver 25]]; [[Isa-40-2|Isa 40:2]]; [[Isa-52-9|52:9]]; [[Luke-1-68|Lk 1:68]]; [[Luke-24-21|24:21]]
 

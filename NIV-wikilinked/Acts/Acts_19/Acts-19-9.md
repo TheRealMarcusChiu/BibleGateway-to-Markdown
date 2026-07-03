@@ -1,8 +1,8 @@
 # Acts 19:9 (New International Version)
-But some of them[^A] became obstinate; they refused to believe and publicly maligned the Way.[^B] So Paul left them. He took the disciples[^C] with him and had discussions daily in the lecture hall of Tyrannus. 
+But some of them<sup>^A</sup> became obstinate; they refused to believe and publicly maligned the Way.<sup>^B</sup> So Paul left them. He took the disciples<sup>^C</sup> with him and had discussions daily in the lecture hall of Tyrannus. 
 
 ### Crossrefs
-[^A]: [[Acts-14-4|Ac 14:4]]
-[^B]: [[Acts-19-23|ver 23]]; S [[Acts-9-2|Ac 9:2]]
-[^C]: [[Acts-19-30|ver 30]]; S [[Acts-11-26|Ac 11:26]]
+- A: [[Acts-14-4|Ac 14:4]]
+- B: [[Acts-19-23|ver 23]]; S [[Acts-9-2|Ac 9:2]]
+- C: [[Acts-19-30|ver 30]]; S [[Acts-11-26|Ac 11:26]]
 

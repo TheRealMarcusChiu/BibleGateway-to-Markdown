@@ -87,6 +87,11 @@ own book and chapter. The source folder is never modified:
 
 	ruby wikilink_crossrefs.rb NIV
 
+In the mirror, chapter folders are renamed `Book/Book_N/` and folder notes
+are added (Obsidian style): `Book.md` beside each book folder and
+`Book_N.md` beside each chapter folder, each containing the full book name
+(plus chapter number) and a one-line description of the book.
+
 ### Downloading the whole Old Testament (headless / server use)
 `download_ot.sh` runs `bg2md_book.rb` for all 39 Old Testament books. It is
 designed for headless machines (e.g. a Proxmox LXC container): it detaches

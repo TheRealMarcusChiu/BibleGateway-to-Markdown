@@ -97,10 +97,49 @@ class TestMirrorVersion < Minitest::Test
         File.write('TST/Luke/22/Luke-22-67.md', src)
         count = WikilinkCrossrefs.mirror_version('TST', out: StringIO.new)
         assert_equal 1, count
-        mirrored = File.read('TST-wikilinked/Luke/22/Luke-22-67.md')
+        mirrored = File.read('TST-wikilinked/Luke/Luke_22/Luke-22-67.md')
         assert_includes mirrored, '[^A]: [[Matt-26-63|Mt 26:63-66]]'
         assert_equal src, File.read('TST/Luke/22/Luke-22-67.md')
       end
+    end
+  end
+
+  def test_chapter_dirs_renamed_with_book_prefix
+    Dir.mktmpdir do |dir|
+      Dir.chdir(dir) do
+        FileUtils.mkdir_p('TST/Gen/2')
+        File.write('TST/Gen/2/Gen-2-1.md', "# Genesis 2:1 (X)\ntext\n")
+        WikilinkCrossrefs.mirror_version('TST', out: StringIO.new)
+        assert File.file?('TST-wikilinked/Gen/Gen_2/Gen-2-1.md')
+        refute Dir.exist?('TST-wikilinked/Gen/2')
+      end
+    end
+  end
+
+  def test_book_and_chapter_notes_created
+    Dir.mktmpdir do |dir|
+      Dir.chdir(dir) do
+        FileUtils.mkdir_p('TST/Gen/1')
+        File.write('TST/Gen/1/Gen-1-1.md', "# Genesis 1:1 (X)\ntext\n")
+        WikilinkCrossrefs.mirror_version('TST', out: StringIO.new)
+
+        book_note = File.read('TST-wikilinked/Gen.md')
+        assert book_note.start_with?("# Genesis\n"), 'book note starts with full book name'
+        assert book_note.split("\n").size >= 3, 'book note has a description'
+
+        chapter_note = File.read('TST-wikilinked/Gen/Gen_1.md')
+        assert chapter_note.start_with?("# Genesis 1\n"), 'chapter note starts with book title + chapter'
+        assert_includes chapter_note, book_note.lines.last.strip, 'chapter note carries the book description'
+      end
+    end
+  end
+
+  def test_book_info_covers_all_66_books
+    require_relative '../bg2md_book'
+    assert_equal BG2MDBook::BOOKS.keys.sort, WikilinkCrossrefs::BOOK_INFO.keys.sort
+    WikilinkCrossrefs::BOOK_INFO.each do |abbrev, (name, desc)|
+      refute_nil name, "#{abbrev} has a full name"
+      assert desc.is_a?(String) && !desc.strip.empty?, "#{abbrev} has a description"
     end
   end
 end

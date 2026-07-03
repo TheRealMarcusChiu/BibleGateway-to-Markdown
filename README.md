@@ -77,6 +77,16 @@ verse at a time (plus one lookup per chapter to count verses), pausing
 Verse files that already exist are skipped, so an interrupted run can simply
 be rerun.
 
+### Turning cross-references into wikilinks
+After downloading, `wikilink_crossrefs.rb` mirrors a version's folder into
+`VERSION-wikilinked/` with every reference in the `### Crossrefs` sections
+converted to an Obsidian-style wikilink with the original text as its alias,
+e.g. `Mt 5:22` becomes `[[Matt-5-22|Mt 5:22]]`. Ranges link to their first
+verse; `ver 15` and bare `23:2`-style references resolve against the file's
+own book and chapter. The source folder is never modified:
+
+	ruby wikilink_crossrefs.rb NIV
+
 ### Downloading the whole Old Testament (headless / server use)
 `download_ot.sh` runs `bg2md_book.rb` for all 39 Old Testament books. It is
 designed for headless machines (e.g. a Proxmox LXC container): it detaches

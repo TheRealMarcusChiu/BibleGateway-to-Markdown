@@ -170,10 +170,10 @@ module WikilinkCrossrefs
     "#{lead}#{prefix}[[#{target}|#{display}]]#{trail}"
   end
 
-  # Transform one '[^X]: refs' crossref line. file_book/file_chapter come
-  # from the filename and seed the reference context.
+  # Transform one '[^X]: refs' crossref line into '- X: <wikilinked refs>'.
+  # file_book/file_chapter come from the filename and seed the context.
   def transform_crossref_line(line, file_book, file_chapter)
-    m = line.match(/\A(\[\^[^\]]+\]:\s*)(.*)\z/)
+    m = line.match(/\A\[\^([^\]]+)\]:\s*(.*)\z/)
     return line unless m
 
     ctx = { book: file_book, chapter: file_chapter,
@@ -182,10 +182,11 @@ module WikilinkCrossrefs
     transformed = parts.map do |part|
       part =~ /\A([;,]\s*|\s+—\s+)\z/ ? part : link_segment(part, ctx)
     end
-    m[1] + transformed.join
+    "- #{m[1]}: " + transformed.join
   end
 
-  # Rewrite only the lines inside the '### Crossrefs' section.
+  # Before '### Crossrefs': [^X] markers become <sup>^X</sup>.
+  # After it: each '[^X]: refs' line becomes a '- X:' bullet with wikilinks.
   def transform_content(content, file_book, file_chapter)
     in_crossrefs = false
     content.lines.map do |line|
@@ -196,7 +197,7 @@ module WikilinkCrossrefs
         eol = line.end_with?("\n") ? "\n" : ''
         transform_crossref_line(line.chomp, file_book, file_chapter) + eol
       else
-        line
+        line.gsub(/\[\^([^\]]+)\]/, '<sup>^\1</sup>')
       end
     end.join
   end

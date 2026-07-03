@@ -9,58 +9,58 @@ class TestTransformCrossrefLine < Minitest::Test
   end
 
   def test_simple_book_refs
-    assert_equal '[^E]: [[Matt-27-1|Mt 27:1]]; [[Mark-15-1|Mk 15:1]]',
+    assert_equal '- E: [[Matt-27-1|Mt 27:1]]; [[Mark-15-1|Mk 15:1]]',
                  t('[^E]: Mt 27:1; Mk 15:1')
   end
 
   def test_see_marker_stays_outside_link
-    assert_equal '[^D]: S [[Matt-5-22|Mt 5:22]]', t('[^D]: S Mt 5:22')
+    assert_equal '- D: S [[Matt-5-22|Mt 5:22]]', t('[^D]: S Mt 5:22')
   end
 
   def test_parallel_passage_line_with_em_dash
-    assert_equal '[^A]: [[Luke-22-67|22:67-71pp]] — [[Matt-26-63|Mt 26:63-66]]; ' \
+    assert_equal '- A: [[Luke-22-67|22:67-71pp]] — [[Matt-26-63|Mt 26:63-66]]; ' \
                  '[[Mark-14-61|Mk 14:61-63]]; [[John-18-19|Jn 18:19-21]]',
                  t('[^A]: 22:67-71pp — Mt 26:63-66; Mk 14:61-63; Jn 18:19-21')
   end
 
   def test_comma_verse_inherits_chapter
-    assert_equal '[^B]: [[Luke-23-2|23:2]], [[Luke-23-3|3pp]] — [[Matt-27-11|Mt 27:11-14]]',
+    assert_equal '- B: [[Luke-23-2|23:2]], [[Luke-23-3|3pp]] — [[Matt-27-11|Mt 27:11-14]]',
                  t('[^B]: 23:2, 3pp — Mt 27:11-14')
   end
 
   def test_cross_chapter_en_dash_range_links_first_verse
-    assert_equal '[^C]: [[John-18-39|Jn 18:39–19:16]]', t('[^C]: Jn 18:39–19:16')
+    assert_equal '- C: [[John-18-39|Jn 18:39–19:16]]', t('[^C]: Jn 18:39–19:16')
   end
 
   def test_book_context_flows_across_semicolons
     line = '[^A]: 1Ch 21:1; Job 1:6-9; Lk 10:18; 13:16; 22:3, 31; 2Co 2:11; 11:14'
-    expected = '[^A]: [[1Chr-21-1|1Ch 21:1]]; [[Job-1-6|Job 1:6-9]]; [[Luke-10-18|Lk 10:18]]; ' \
+    expected = '- A: [[1Chr-21-1|1Ch 21:1]]; [[Job-1-6|Job 1:6-9]]; [[Luke-10-18|Lk 10:18]]; ' \
                '[[Luke-13-16|13:16]]; [[Luke-22-3|22:3]], [[Luke-22-31|31]]; ' \
                '[[2Cor-2-11|2Co 2:11]]; [[2Cor-11-14|11:14]]'
     assert_equal expected, t(line, book: 'Matt', chapter: 4)
   end
 
   def test_ver_refs_use_own_book_and_chapter
-    assert_equal '[^D]: S [[John-3-15|ver 15]]', t('[^D]: S ver 15', book: 'John', chapter: 3)
-    assert_equal '[^E]: [[John-3-36|ver 36]]; [[John-6-29|Jn 6:29]], [[John-6-40|40]]',
+    assert_equal '- D: S [[John-3-15|ver 15]]', t('[^D]: S ver 15', book: 'John', chapter: 3)
+    assert_equal '- E: [[John-3-36|ver 36]]; [[John-6-29|Jn 6:29]], [[John-6-40|40]]',
                  t('[^E]: ver 36; Jn 6:29, 40', book: 'John', chapter: 3)
   end
 
   def test_single_chapter_book_number_is_a_verse
-    assert_equal '[^A]: [[Jude-1-14|Jude 14]]', t('[^A]: Jude 14')
+    assert_equal '- A: [[Jude-1-14|Jude 14]]', t('[^A]: Jude 14')
   end
 
   def test_chapter_only_ref_links_verse_one
-    assert_equal '[^A]: [[Ps-119-1|Ps 119]]', t('[^A]: Ps 119')
+    assert_equal '- A: [[Ps-119-1|Ps 119]]', t('[^A]: Ps 119')
   end
 
   def test_ref_suffix_variant
-    assert_equal '[^B]: [[Luke-9-13|9:13-17Ref]] — [[2Kgs-4-42|2Ki 4:42-44]]',
+    assert_equal '- B: [[Luke-9-13|9:13-17Ref]] — [[2Kgs-4-42|2Ki 4:42-44]]',
                  t('[^B]: 9:13-17Ref — 2Ki 4:42-44', book: 'Luke', chapter: 9)
   end
 
   def test_unrecognized_segment_left_alone
-    assert_equal '[^A]: some junk; [[Matt-5-22|Mt 5:22]]', t('[^A]: some junk; Mt 5:22')
+    assert_equal '- A: some junk; [[Matt-5-22|Mt 5:22]]', t('[^A]: some junk; Mt 5:22')
   end
 
   def test_non_crossref_line_untouched
@@ -80,11 +80,22 @@ class TestTransformContent < Minitest::Test
     [^A]: S Mt 5:22
   MD
 
-  def test_only_crossrefs_section_transformed
+  def test_only_crossrefs_section_gets_wikilinks
     result = WikilinkCrossrefs.transform_content(CONTENT, 'Luke', 22)
-    assert_includes result, '[^A]: S [[Matt-5-22|Mt 5:22]]'
-    assert_includes result, '[^a]: Mt 1:1 some footnote text, not a crossref'
-    assert_includes result, '"tell us."[^A]'
+    assert_includes result, '- A: S [[Matt-5-22|Mt 5:22]]'
+    refute_includes result, '[[Matt-1-1', 'footnote refs before Crossrefs are not wikilinked'
+  end
+
+  def test_markers_before_crossrefs_become_sup
+    result = WikilinkCrossrefs.transform_content(CONTENT, 'Luke', 22)
+    assert_includes result, '"tell us."<sup>^A</sup>'
+    assert_includes result, '<sup>^a</sup>: Mt 1:1 some footnote text, not a crossref'
+    refute_includes result, '"tell us."[^A]'
+  end
+
+  def test_file_without_crossrefs_still_gets_sup_markers
+    result = WikilinkCrossrefs.transform_content("# T (X)\ntext[^B] more\n", 'Gen', 1)
+    assert_equal "# T (X)\ntext<sup>^B</sup> more\n", result
   end
 end
 
@@ -98,7 +109,8 @@ class TestMirrorVersion < Minitest::Test
         count = WikilinkCrossrefs.mirror_version('TST', out: StringIO.new)
         assert_equal 1, count
         mirrored = File.read('TST-wikilinked/Luke/Luke_22/Luke-22-67.md')
-        assert_includes mirrored, '[^A]: [[Matt-26-63|Mt 26:63-66]]'
+        assert_includes mirrored, '- A: [[Matt-26-63|Mt 26:63-66]]'
+        assert_includes mirrored, 'text<sup>^A</sup>'
         assert_equal src, File.read('TST/Luke/22/Luke-22-67.md')
       end
     end

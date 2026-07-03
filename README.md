@@ -77,6 +77,20 @@ verse at a time (plus one lookup per chapter to count verses), pausing
 Verse files that already exist are skipped, so an interrupted run can simply
 be rerun.
 
+### Downloading the whole Old Testament (headless / server use)
+`download_ot.sh` runs `bg2md_book.rb` for all 39 Old Testament books. It is
+designed for headless machines (e.g. a Proxmox LXC container): it detaches
+into the background and keeps running after you log out.
+
+	./download_ot.sh NIV            # start; returns immediately
+	./download_ot.sh --status NIV   # running? progress + last log lines
+	./download_ot.sh --stop NIV     # stop; rerun later to resume
+
+Progress is logged to `ot-download-<VERSION>.log`. Only the `colorize` gem is
+needed on the server — the `clipboard` gem is replaced by a no-op shim, so no
+X11/xclip is required. Expect the full OT (~23,000 verses) to take 13-20
+hours at the polite one-request-per-second pace.
+
 ### From Launchers
 With a little configuration it's possible to run this from Alfred or Raycast or other launchers, through whatever mechanism they use to 'Run script' with a query argument as the Bible reference. You'll likely need to create slightly different configurations for each Bible translation that you use.
 

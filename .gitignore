@@ -62,3 +62,8 @@ build-iPhoneSimulator/
 .gitattributes
 .gitignore
 *.code-workspace
+
+# download_ot.sh runtime files
+ot-download-*.log
+ot-download-*.pid
+.clipboard-shim/

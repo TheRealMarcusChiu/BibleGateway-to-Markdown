@@ -62,6 +62,21 @@ If you want to write to a markdown note in the current directory, then use `bg2m
 
 `bg2md -b -c -e -r -v NIV "Jn 3.16-17" > passage.md`
 
+### Downloading a whole book, one file per verse
+`bg2md_book.rb` (in this repository) downloads every verse of a book as
+individual markdown files, organised as
+`./VERSION/BOOK/CHAPTER/BOOK-CHAPTER-VERSE.md` (e.g. `./NIV/Eph/1/Eph-1-1.md`):
+
+	ruby bg2md_book.rb NIV Eph
+
+Run `ruby bg2md_book.rb --help` to list the possible BOOK abbreviations and
+common VERSION codes. Each verse file keeps cross-references but excludes
+copyright, editorial headers, footnotes, and verse numbers. It fetches one
+verse at a time (plus one lookup per chapter to count verses), pausing
+`--delay` seconds (default 1) between requests, so whole books take a while.
+Verse files that already exist are skipped, so an interrupted run can simply
+be rerun.
+
 ### From Launchers
 With a little configuration it's possible to run this from Alfred or Raycast or other launchers, through whatever mechanism they use to 'Run script' with a query argument as the Bible reference. You'll likely need to create slightly different configurations for each Bible translation that you use.
 

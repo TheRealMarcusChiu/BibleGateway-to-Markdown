@@ -1,4 +1,6 @@
 require 'minitest/autorun'
+require 'tmpdir'
+require 'stringio'
 require_relative '../bg2md_book'
 
 class TestBookTable < Minitest::Test
@@ -72,5 +74,72 @@ class TestFetchers < Minitest::Test
     runner = ->(cmd) { captured = cmd; 'out' }
     assert_equal 'out', BG2MDBook.fetch_verse('NIV', 'Gen', 2, 7, runner)
     assert_equal ['-c', '-e', '-f', '-n', '-v', 'NIV', 'Gen 2:7'], captured[2..-1]
+  end
+end
+
+class TestDownloadBook < Minitest::Test
+  CHAPTER_MD = "\n# Jude 1 (Test)\n1:1 Jude, a servant text 2 Mercy, peace text 3 Dear friends"
+  VERSE_MD = "\n# Jude 1:1 (Test)\nJude, a servant of Jesus Christ\n"
+
+  def fake_runner(fail_refs = [])
+    lambda do |cmd|
+      ref = cmd.last
+      return "Error: nope\n" if fail_refs.include?(ref)
+      ref.include?(':') ? VERSE_MD.sub('1:1', ref.split(' ').last) : CHAPTER_MD
+    end
+  end
+
+  def run_download(runner)
+    BG2MDBook.download_book(version: 'TST', book: 'Jude', delay: 0,
+                            runner: runner, sleeper: ->(_s) {}, out: StringIO.new)
+  end
+
+  def test_writes_one_file_per_verse
+    Dir.mktmpdir do |dir|
+      Dir.chdir(dir) do
+        stats = run_download(fake_runner)
+        assert_equal 3, stats[:written]
+        assert_equal 0, stats[:skipped]
+        assert_empty stats[:failed]
+        assert File.file?('TST/Jude/1/Jude-1-1.md')
+        assert File.file?('TST/Jude/1/Jude-1-3.md')
+        content = File.read('TST/Jude/1/Jude-1-2.md')
+        assert content.start_with?('# Jude 1:2 (Test)')
+      end
+    end
+  end
+
+  def test_skips_existing_nonempty_files
+    Dir.mktmpdir do |dir|
+      Dir.chdir(dir) do
+        FileUtils.mkdir_p('TST/Jude/1')
+        File.write('TST/Jude/1/Jude-1-2.md', 'already here')
+        stats = run_download(fake_runner)
+        assert_equal 2, stats[:written]
+        assert_equal 1, stats[:skipped]
+        assert_equal 'already here', File.read('TST/Jude/1/Jude-1-2.md')
+      end
+    end
+  end
+
+  def test_failed_verse_recorded_and_not_written
+    Dir.mktmpdir do |dir|
+      Dir.chdir(dir) do
+        stats = run_download(fake_runner(['Jude 1:2']))
+        assert_equal 2, stats[:written]
+        assert_equal ['Jude 1:2'], stats[:failed]
+        refute File.exist?('TST/Jude/1/Jude-1-2.md')
+      end
+    end
+  end
+
+  def test_failed_chapter_fetch_recorded
+    Dir.mktmpdir do |dir|
+      Dir.chdir(dir) do
+        stats = run_download(fake_runner(['Jude 1']))
+        assert_equal 0, stats[:written]
+        assert_equal ['Jude 1 (whole chapter)'], stats[:failed]
+      end
+    end
   end
 end

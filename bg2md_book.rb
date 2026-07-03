@@ -92,4 +92,41 @@ module BG2MDBook
       stdout
     end
   end
+
+  # Download every verse of `book` (canonical abbrev) into
+  # ./VERSION/Book/ch/Book-ch-v.md under the current directory.
+  # Returns { written:, skipped:, failed: [refs] }.
+  def download_book(version:, book:, delay: 1.0, runner: default_runner,
+                    sleeper: ->(s) { sleep(s) }, out: $stdout)
+    stats = { written: 0, skipped: 0, failed: [] }
+    (1..BOOKS.fetch(book)).each do |ch|
+      chapter_md = fetch_chapter(version, book, ch, runner)
+      sleeper.call(delay)
+      max_verse = valid_output?(chapter_md) ? parse_max_verse(chapter_md) : nil
+      if max_verse.nil?
+        stats[:failed] << "#{book} #{ch} (whole chapter)"
+        out.puts "FAILED: #{book} #{ch} -- could not fetch chapter to count verses"
+        next
+      end
+      out.puts "#{book} #{ch}: #{max_verse} verses"
+      (1..max_verse).each do |v|
+        path = verse_path(version, book, ch, v)
+        if File.file?(path) && !File.zero?(path)
+          stats[:skipped] += 1
+          next
+        end
+        verse_md = fetch_verse(version, book, ch, v, runner)
+        sleeper.call(delay)
+        if valid_output?(verse_md)
+          FileUtils.mkdir_p(File.dirname(path))
+          File.write(path, verse_md.lstrip)
+          stats[:written] += 1
+        else
+          stats[:failed] << "#{book} #{ch}:#{v}"
+          out.puts "FAILED: #{book} #{ch}:#{v}"
+        end
+      end
+    end
+    stats
+  end
 end

@@ -21,3 +21,17 @@ class TestBookTable < Minitest::Test
     assert_nil BG2MDBook.find_book('Nope')
   end
 end
+
+class TestPathsAndValidation < Minitest::Test
+  def test_verse_path
+    assert_equal 'NIV/Eph/1/Eph-1-1.md', BG2MDBook.verse_path('NIV', 'Eph', 1, 1)
+    assert_equal 'ESV/Ps/119/Ps-119-176.md', BG2MDBook.verse_path('ESV', 'Ps', 119, 176)
+  end
+
+  def test_valid_output
+    assert BG2MDBook.valid_output?("\n# John 3:16 (New International Version)\ntext")
+    refute BG2MDBook.valid_output?('')
+    refute BG2MDBook.valid_output?(nil)
+    refute BG2MDBook.valid_output?("Error: could not find useful data\n")
+  end
+end

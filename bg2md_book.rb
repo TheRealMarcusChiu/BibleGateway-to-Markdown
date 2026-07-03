@@ -43,4 +43,14 @@ module BG2MDBook
   def find_book(name)
     BOOKS.keys.find { |k| k.casecmp?(name.to_s) }
   end
+
+  def verse_path(version, book, chapter, verse)
+    File.join(version, book, chapter.to_s, "#{book}-#{chapter}-#{verse}.md")
+  end
+
+  # bg2md.rb exits 0 even on failure, so sniff the output instead: good
+  # output starts with the '# <ref> (<version>)' heading (after a blank line).
+  def valid_output?(text)
+    !text.nil? && text.lstrip.start_with?('# ')
+  end
 end

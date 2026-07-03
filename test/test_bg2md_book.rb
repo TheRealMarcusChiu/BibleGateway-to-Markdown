@@ -39,30 +39,34 @@ class TestPathsAndValidation < Minitest::Test
 end
 
 class TestParseMaxVerse < Minitest::Test
+  # Chapter fetches use bg2md's -l mode: every verse starts a '###### N'
+  # heading line, so numbers inside the verse text can't be miscounted.
   def test_simple_chapter
-    md = "\n# Ephesians 1 (New International Version)\n1:1 Paul, an apostle text 2 Grace and peace text 3 Praise be"
+    md = "\n# Ephesians 1 (New International Version)\n\n##### Chapter 1\n###### 1 Paul, an apostle\n###### 2 Grace and peace\n###### 3 Praise be"
     assert_equal 3, BG2MDBook.parse_max_verse(md)
   end
 
-  def test_heading_number_ignored
-    md = "\n# Psalm 150 (New International Version)\n150:1 Praise the LORD. text 2 Praise him text 6 Let everything"
-    assert_equal 6, BG2MDBook.parse_max_verse(md)
+  def test_numbers_in_verse_text_ignored
+    # Regression: Rev 11:2's '42 months' and Rev 21:17's '144 cubits' were
+    # read as verse numbers, inflating 19- and 27-verse chapters to 42/144.
+    md = "\n# Revelation 11 (New International Version)\n\n##### Chapter 11\n" \
+         "###### 1 I was given a reed\n###### 2 trample on the holy city for 42 months. \n" \
+         "###### 3 my two witnesses, and they will prophesy for 1,260 days"
+    assert_equal 3, BG2MDBook.parse_max_verse(md)
   end
 
   def test_no_verses
-    assert_nil BG2MDBook.parse_max_verse("\n# Something (X)\nno digits here")
+    assert_nil BG2MDBook.parse_max_verse("\n# Something (X)\nno verse headings here, just 42 text")
   end
 
   def test_leaked_publisher_line_ignored
-    # bg2md leaks this publisher line into the passage even with -c; its
-    # year must not be read as a verse number (regression: Jude -> 2019).
-    md = "\n# Jude (New International Version)\n1:1 Jude, a servant text 2 mercy text 25 now and forevermore \n" \
+    md = "\n# Jude (New International Version)\n\n##### Chapter 1\n###### 1 Jude, a servant\n###### 25 now and forevermore \n" \
          'NIV Reverse Interlinear Bible: English to Hebrew and English to Greek. Copyright © 2019 by Zondervan.'
     assert_equal 25, BG2MDBook.parse_max_verse(md)
   end
 
   def test_implausibly_large_numbers_ignored
-    md = "\n# X (Y)\n1:1 text 2 text 1996 stray big number"
+    md = "\n# X (Y)\n###### 1 text\n###### 2 text\n###### 1996 stray corrupt heading"
     assert_equal 2, BG2MDBook.parse_max_verse(md)
   end
 end
@@ -90,11 +94,11 @@ class TestFetchers < Minitest::Test
     assert_equal ['-v', 'NIV', 'Gen 1'], cmd[2..-1]
   end
 
-  def test_fetch_chapter_flags_keep_numbering_drop_crossrefs
+  def test_fetch_chapter_flags_use_heading_numbering_drop_crossrefs
     captured = nil
     runner = ->(cmd) { captured = cmd; 'out' }
     assert_equal 'out', BG2MDBook.fetch_chapter('NIV', 'Gen', 2, runner)
-    assert_equal ['-c', '-e', '-f', '-r', '-v', 'NIV', 'Gen 2'], captured[2..-1]
+    assert_equal ['-c', '-e', '-f', '-r', '-l', '-v', 'NIV', 'Gen 2'], captured[2..-1]
   end
 
   def test_fetch_verse_flags_keep_crossrefs_drop_numbering
@@ -106,7 +110,7 @@ class TestFetchers < Minitest::Test
 end
 
 class TestDownloadBook < Minitest::Test
-  CHAPTER_MD = "\n# Jude 1 (Test)\n1:1 Jude, a servant text 2 Mercy, peace text 3 Dear friends"
+  CHAPTER_MD = "\n# Jude 1 (Test)\n\n##### Chapter 1\n###### 1 Jude, a servant\n###### 2 Mercy, peace\n###### 3 Dear friends"
   VERSE_MD = "\n# Jude 1:1 (Test)\nJude, a servant of Jesus Christ\n"
 
   def fake_runner(fail_refs = [])

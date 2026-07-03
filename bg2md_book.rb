@@ -66,17 +66,13 @@ module BG2MDBook
     text.gsub(/^.*copyright\s*©.*$\n?/i, '')
   end
 
-  # Find the highest verse number in a whole-chapter bg2md output.
-  # Verse numbers appear as inline 'N ' tokens; a chapter start appears as
-  # 'C:1 ' (the verse part is what counts). The heading line is skipped.
+  # Find the highest verse number in a whole-chapter bg2md output fetched
+  # with -l: every verse starts a '###### N' heading line, so numbers inside
+  # the verse text (e.g. Rev 21:17's '144 cubits') can't be miscounted.
   def parse_max_verse(markdown)
-    text = strip_leaked_copyright(markdown.to_s).sub(/^# .*$/, '')
-    verses = []
-    text = text.gsub(/(\d+):(\d+)\s/) do
-      verses << Regexp.last_match(2).to_i
-      ' '
-    end
-    text.scan(/(?:\A|\s)(\d+)\s/) { |m| verses << m[0].to_i }
+    verses = strip_leaked_copyright(markdown.to_s)
+             .scan(/^###### (\d+)/)
+             .map { |m| m[0].to_i }
     verses.reject! { |v| v > MAX_PLAUSIBLE_VERSE }
     verses.max
   end
@@ -85,10 +81,11 @@ module BG2MDBook
     [RbConfig.ruby, BG2MD_SCRIPT, *args]
   end
 
-  # Whole-chapter fetch used only to count verses: numbering ON, all
-  # extras (copyright, headers, footnotes, crossrefs) OFF.
+  # Whole-chapter fetch used only to count verses: -l puts each verse number
+  # on its own '###### N' heading line; all extras (copyright, headers,
+  # footnotes, crossrefs) OFF.
   def fetch_chapter(version, book, chapter, runner)
-    runner.call(bg2md_cmd(['-c', '-e', '-f', '-r', '-v', version, "#{book} #{chapter}"]))
+    runner.call(bg2md_cmd(['-c', '-e', '-f', '-r', '-l', '-v', version, "#{book} #{chapter}"]))
   end
 
   # Per-verse fetch: crossrefs kept; copyright, headers, footnotes and

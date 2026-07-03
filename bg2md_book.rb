@@ -37,6 +37,8 @@ module BG2MDBook
   # abbreviation is accepted; an unknown one just fails on the first fetch.
   COMMON_VERSIONS = %w[NIV NIVUK ESV NET NLT KJV NKJV NASB MSG AMP CSB].freeze
 
+  BG2MD_SCRIPT = File.join(__dir__, 'bg2md.rb')
+
   module_function
 
   # Case-insensitive lookup; returns the canonical abbreviation or nil.
@@ -66,5 +68,28 @@ module BG2MDBook
     end
     text.scan(/(?:\A|\s)(\d+)\s/) { |m| verses << m[0].to_i }
     verses.max
+  end
+
+  def bg2md_cmd(args)
+    [RbConfig.ruby, BG2MD_SCRIPT, *args]
+  end
+
+  # Whole-chapter fetch used only to count verses: numbering ON, all
+  # extras (copyright, headers, footnotes, crossrefs) OFF.
+  def fetch_chapter(version, book, chapter, runner)
+    runner.call(bg2md_cmd(['-c', '-e', '-f', '-r', '-v', version, "#{book} #{chapter}"]))
+  end
+
+  # Per-verse fetch: crossrefs kept; copyright, headers, footnotes and
+  # verse numbers OFF (the filename already encodes the verse).
+  def fetch_verse(version, book, chapter, verse, runner)
+    runner.call(bg2md_cmd(['-c', '-e', '-f', '-n', '-v', version, "#{book} #{chapter}:#{verse}"]))
+  end
+
+  def default_runner
+    lambda do |cmd|
+      stdout, _status = Open3.capture2(*cmd)
+      stdout
+    end
   end
 end

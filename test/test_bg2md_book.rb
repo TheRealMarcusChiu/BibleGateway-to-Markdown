@@ -51,3 +51,26 @@ class TestParseMaxVerse < Minitest::Test
     assert_nil BG2MDBook.parse_max_verse("\n# Something (X)\nno digits here")
   end
 end
+
+class TestFetchers < Minitest::Test
+  def test_bg2md_cmd_points_at_sibling_script
+    cmd = BG2MDBook.bg2md_cmd(['-v', 'NIV', 'Gen 1'])
+    assert_equal RbConfig.ruby, cmd[0]
+    assert cmd[1].end_with?('bg2md.rb')
+    assert_equal ['-v', 'NIV', 'Gen 1'], cmd[2..-1]
+  end
+
+  def test_fetch_chapter_flags_keep_numbering_drop_crossrefs
+    captured = nil
+    runner = ->(cmd) { captured = cmd; 'out' }
+    assert_equal 'out', BG2MDBook.fetch_chapter('NIV', 'Gen', 2, runner)
+    assert_equal ['-c', '-e', '-f', '-r', '-v', 'NIV', 'Gen 2'], captured[2..-1]
+  end
+
+  def test_fetch_verse_flags_keep_crossrefs_drop_numbering
+    captured = nil
+    runner = ->(cmd) { captured = cmd; 'out' }
+    assert_equal 'out', BG2MDBook.fetch_verse('NIV', 'Gen', 2, 7, runner)
+    assert_equal ['-c', '-e', '-f', '-n', '-v', 'NIV', 'Gen 2:7'], captured[2..-1]
+  end
+end

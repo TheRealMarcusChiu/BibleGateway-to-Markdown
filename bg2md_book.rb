@@ -53,4 +53,18 @@ module BG2MDBook
   def valid_output?(text)
     !text.nil? && text.lstrip.start_with?('# ')
   end
+
+  # Find the highest verse number in a whole-chapter bg2md output.
+  # Verse numbers appear as inline 'N ' tokens; a chapter start appears as
+  # 'C:1 ' (the verse part is what counts). The heading line is skipped.
+  def parse_max_verse(markdown)
+    text = markdown.to_s.sub(/^# .*$/, '')
+    verses = []
+    text = text.gsub(/(\d+):(\d+)\s/) do
+      verses << Regexp.last_match(2).to_i
+      ' '
+    end
+    text.scan(/(?:\A|\s)(\d+)\s/) { |m| verses << m[0].to_i }
+    verses.max
+  end
 end

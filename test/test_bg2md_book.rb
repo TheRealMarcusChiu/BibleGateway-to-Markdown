@@ -35,3 +35,19 @@ class TestPathsAndValidation < Minitest::Test
     refute BG2MDBook.valid_output?("Error: could not find useful data\n")
   end
 end
+
+class TestParseMaxVerse < Minitest::Test
+  def test_simple_chapter
+    md = "\n# Ephesians 1 (New International Version)\n1:1 Paul, an apostle text 2 Grace and peace text 3 Praise be"
+    assert_equal 3, BG2MDBook.parse_max_verse(md)
+  end
+
+  def test_heading_number_ignored
+    md = "\n# Psalm 150 (New International Version)\n150:1 Praise the LORD. text 2 Praise him text 6 Let everything"
+    assert_equal 6, BG2MDBook.parse_max_verse(md)
+  end
+
+  def test_no_verses
+    assert_nil BG2MDBook.parse_max_verse("\n# Something (X)\nno digits here")
+  end
+end

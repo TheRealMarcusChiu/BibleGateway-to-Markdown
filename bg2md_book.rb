@@ -130,3 +130,51 @@ module BG2MDBook
     stats
   end
 end
+
+if $PROGRAM_NAME == __FILE__
+  options = { delay: 1.0 }
+  parser = OptionParser.new do |o|
+    o.banner = 'Usage: bg2md_book.rb [options] VERSION BOOK'
+    o.separator ''
+    o.separator '  Downloads every verse of BOOK as individual markdown files:'
+    o.separator '  ./VERSION/BOOK/CHAPTER/BOOK-CHAPTER-VERSE.md'
+    o.separator ''
+    o.separator 'Options:'
+    o.on('--delay SECONDS', Float, 'Pause between requests (default: 1)') do |d|
+      options[:delay] = d
+    end
+    o.on('-h', '--help', 'Show this help') do
+      puts o
+      puts
+      puts 'BOOK values (chapter count in brackets):'
+      BG2MDBook::BOOKS.each_slice(6) do |row|
+        puts '  ' + row.map { |b, c| format('%-12s', "#{b}(#{c})") }.join
+      end
+      puts
+      puts 'VERSION values (common ones; any BibleGateway abbreviation works):'
+      puts '  ' + BG2MDBook::COMMON_VERSIONS.join(', ')
+      exit
+    end
+  end
+  parser.parse!
+
+  if ARGV.length != 2
+    warn 'Error: need exactly two arguments: VERSION BOOK (see --help)'
+    exit 1
+  end
+  version = ARGV[0]
+  book = BG2MDBook.find_book(ARGV[1])
+  if book.nil?
+    warn "Error: unknown book '#{ARGV[1]}'. Run with --help to list books."
+    exit 1
+  end
+
+  stats = BG2MDBook.download_book(version: version, book: book, delay: options[:delay])
+  puts
+  puts "Done: #{stats[:written]} written, #{stats[:skipped]} skipped (already existed), #{stats[:failed].size} failed."
+  unless stats[:failed].empty?
+    puts 'Failed references (rerun the same command to retry):'
+    stats[:failed].each { |r| puts "  #{r}" }
+    exit 1
+  end
+end

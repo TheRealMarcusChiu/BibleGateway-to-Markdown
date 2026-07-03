@@ -1,0 +1,6 @@
+# John 1:13 (New International Version)
+children born not of natural descent, nor of human decision or a husband's will, but born of God.[^A]
+
+### Crossrefs
+[^A]: [[John-3-6|Jn 3:6]]; [[Titus-3-5|Tit 3:5]]; [[Jas-1-18|Jas 1:18]]; [[1Pet-1-23|1Pe 1:23]]; [[1John-3-9|1Jn 3:9]]; [[1John-4-7|4:7]]; [[1John-5-1|5:1]], [[1John-5-4|4]]
+

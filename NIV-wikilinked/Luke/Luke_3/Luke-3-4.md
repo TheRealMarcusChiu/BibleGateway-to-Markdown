@@ -1,0 +1,6 @@
+# Luke 3:4 (New International Version)
+As it is written in the book of the words of Isaiah the prophet:
+"A voice of one calling in the wilderness,  
+'Prepare the way for the Lord,  
+    make straight paths for him.
+

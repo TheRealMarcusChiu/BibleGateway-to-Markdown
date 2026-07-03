@@ -1,0 +1,10 @@
+# Romans 7:7 (New International Version)
+The Law and Sin
+What shall we say, then?[^A] Is the law sinful? Certainly not![^B] Nevertheless, I would not have known what sin was had it not been for the law.[^C] For I would not have known what coveting really was if the law had not said, "You shall not covet."[^D] 
+
+### Crossrefs
+[^A]: S [[Rom-8-31|Ro 8:31]]
+[^B]: S [[Rom-7-12|ver 12]]
+[^C]: S [[Rom-4-15|Ro 4:15]]
+[^D]: [[Exod-20-17|Ex 20:17]]; [[Deut-5-21|Dt 5:21]]
+

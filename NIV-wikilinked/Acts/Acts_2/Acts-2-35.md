@@ -1,0 +1,7 @@
+# Acts 2:35 (New International Version)
+until I make your enemies  
+    a footstool for your feet."'[^A]
+
+### Crossrefs
+[^A]: [[Ps-110-1|Ps 110:1]]; S [[Matt-22-44|Mt 22:44]]
+

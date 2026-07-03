@@ -1,0 +1,7 @@
+# John 17:9 (New International Version)
+I pray for them.[^A] I am not praying for the world, but for those you have given me,[^B] for they are yours. 
+
+### Crossrefs
+[^A]: Lk 22:32
+[^B]: S ver 2
+

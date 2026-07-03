@@ -1,0 +1,5 @@
+# Revelation 7:5 (New International Version)
+From the tribe of Judah 12,000 were sealed,
+from the tribe of Reuben 12,000,
+from the tribe of Gad 12,000,
+

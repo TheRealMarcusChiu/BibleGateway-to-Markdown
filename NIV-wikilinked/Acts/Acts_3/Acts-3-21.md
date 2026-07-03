@@ -1,0 +1,8 @@
+# Acts 3:21 (New International Version)
+Heaven must receive him[^A] until the time comes for God to restore everything,[^B] as he promised long ago through his holy prophets.[^C] 
+
+### Crossrefs
+[^A]: [[Acts-1-11|Ac 1:11]]
+[^B]: [[Matt-17-11|Mt 17:11]]; [[Acts-1-6|Ac 1:6]]
+[^C]: [[Luke-1-70|Lk 1:70]]
+

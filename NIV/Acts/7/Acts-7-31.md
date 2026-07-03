@@ -1,0 +1,6 @@
+# Acts 7:31 (New International Version)
+When he saw this, he was amazed at the sight. As he went over to get a closer look, he heard the Lord say:[^A] 
+
+### Crossrefs
+[^A]: Ex 3:1-4
+

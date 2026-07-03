@@ -1,0 +1,7 @@
+# John 7:31 (New International Version)
+Still, many in the crowd believed in him.[^A] They said, "When the Messiah comes, will he perform more signs[^B] than this man?"
+
+### Crossrefs
+[^A]: [[John-8-30|Jn 8:30]]; [[John-10-42|10:42]]; [[John-11-45|11:45]]; [[John-12-11|12:11]], [[John-12-42|42]]
+[^B]: S [[John-2-11|Jn 2:11]]
+

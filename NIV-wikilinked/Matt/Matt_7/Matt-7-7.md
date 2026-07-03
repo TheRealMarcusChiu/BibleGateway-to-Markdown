@@ -1,0 +1,8 @@
+# Matthew 7:7 (New International Version)
+Ask, Seek, Knock[^A]
+"Ask and it will be given to you;[^B] seek and you will find; knock and the door will be opened to you. 
+
+### Crossrefs
+[^A]: [[Matt-7-7|7:7-11pp]] — [[Luke-11-9|Lk 11:9-13]]
+[^B]: [[1Kgs-3-5|1Ki 3:5]]; [[Matt-18-19|Mt 18:19]]; [[Matt-21-22|21:22]]; [[John-14-13|Jn 14:13]], [[John-14-14|14]]; [[John-15-7|15:7]], [[John-15-16|16]]; [[John-16-23|16:23]], [[John-16-24|24]]; [[Jas-1-5|Jas 1:5-8]]; [[Jas-4-2|4:2]], [[Jas-4-3|3]]; [[Jas-5-16|5:16]]; [[1John-3-22|1Jn 3:22]]; [[1John-5-14|5:14]], [[1John-5-15|15]]
+

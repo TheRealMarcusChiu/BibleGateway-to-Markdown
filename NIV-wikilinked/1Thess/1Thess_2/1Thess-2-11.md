@@ -1,0 +1,6 @@
+# 1 Thessalonians 2:11 (New International Version)
+For you know that we dealt with each of you as a father deals with his own children,[^A] 
+
+### Crossrefs
+[^A]: [[1Thess-2-7|ver 7]]; [[1Cor-4-14|1Co 4:14]]; [[Gal-4-19|Gal 4:19]]; S [[1Tim-1-2|1Ti 1:2]]; [[Phlm-1-10|Phm 10]]; S [[1John-2-1|1Jn 2:1]]
+

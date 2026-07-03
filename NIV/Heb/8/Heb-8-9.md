@@ -1,0 +1,12 @@
+# Hebrews 8:9 (New International Version)
+It will not be like the covenant  
+    I made with their ancestors[^A]  
+when I took them by the hand  
+    to lead them out of Egypt,  
+because they did not remain faithful to my covenant,  
+    and I turned away from them,  
+declares the Lord.
+
+### Crossrefs
+[^A]: Ex 19:5, 6; 20:1-17
+

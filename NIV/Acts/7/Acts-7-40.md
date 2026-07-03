@@ -1,0 +1,6 @@
+# Acts 7:40 (New International Version)
+They told Aaron, 'Make us gods who will go before us. As for this fellow Moses who led us out of Egypt--we don't know what has happened to him!'[^A] 
+
+### Crossrefs
+[^A]: Ex 32:1, 23
+

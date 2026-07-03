@@ -1,0 +1,7 @@
+# John 1:4 (New International Version)
+In him was life,[^A] and that life was the light[^B] of all mankind. 
+
+### Crossrefs
+[^A]: S [[John-5-26|Jn 5:26]]; [[John-6-57|6:57]]; [[John-11-25|11:25]]; [[John-14-6|14:6]]; [[Acts-3-15|Ac 3:15]]; [[Heb-7-16|Heb 7:16]]; [[1John-1-1|1Jn 1:1]], [[1John-1-2|2]]; [[1John-5-20|5:20]]; [[Rev-1-18|Rev 1:18]]
+[^B]: [[Ps-36-9|Ps 36:9]]; [[John-3-19|Jn 3:19]]; [[John-8-12|8:12]]; [[John-9-5|9:5]]; [[John-12-46|12:46]]
+

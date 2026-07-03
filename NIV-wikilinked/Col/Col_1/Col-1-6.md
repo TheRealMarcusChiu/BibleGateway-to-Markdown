@@ -1,0 +1,7 @@
+# Colossians 1:6 (New International Version)
+that has come to you. In the same way, the gospel is bearing fruit[^A] and growing throughout the whole world[^B]--just as it has been doing among you since the day you heard it and truly understood God's grace. 
+
+### Crossrefs
+[^A]: [[John-15-16|Jn 15:16]]
+[^B]: [[Col-1-23|ver 23]]; S [[Rom-10-18|Ro 10:18]]
+

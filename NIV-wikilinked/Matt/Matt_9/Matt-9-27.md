@@ -1,0 +1,7 @@
+# Matthew 9:27 (New International Version)
+Jesus Heals the Blind and the Mute
+As Jesus went on from there, two blind men followed him, calling out, "Have mercy on us, Son of David!"[^A]
+
+### Crossrefs
+[^A]: S [[Matt-1-1|Mt 1:1]]; [[Matt-12-23|12:23]]; [[Matt-15-22|15:22]]; [[Matt-20-30|20:30]], [[Matt-20-31|31]]; [[Matt-21-9|21:9]], [[Matt-21-15|15]]; [[Matt-22-42|22:42]]; [[Mark-10-47|Mk 10:47]]
+

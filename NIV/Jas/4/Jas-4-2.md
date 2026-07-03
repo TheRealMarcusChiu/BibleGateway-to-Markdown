@@ -1,0 +1,6 @@
+# James 4:2 (New International Version)
+You desire but do not have, so you kill.[^A] You covet but you cannot get what you want, so you quarrel and fight. You do not have because you do not ask God. 
+
+### Crossrefs
+[^A]: Mt 5:21, 22; Jas 5:6; 1Jn 3:15
+

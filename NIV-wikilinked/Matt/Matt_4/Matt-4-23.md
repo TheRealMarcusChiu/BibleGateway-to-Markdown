@@ -1,0 +1,11 @@
+# Matthew 4:23 (New International Version)
+Jesus Heals the Sick
+Jesus went throughout Galilee,[^A] teaching in their synagogues,[^B] proclaiming the good news[^C] of the kingdom,[^D] and healing every disease and sickness among the people.[^E] 
+
+### Crossrefs
+[^A]: [[Mark-1-39|Mk 1:39]]; [[Luke-4-15|Lk 4:15]], [[Luke-4-44|44]]
+[^B]: [[Matt-9-35|Mt 9:35]]; [[Matt-13-54|13:54]]; [[Mark-1-21|Mk 1:21]]; [[Luke-4-15|Lk 4:15]]; [[John-6-59|Jn 6:59]]; [[John-18-20|18:20]]
+[^C]: [[Mark-1-14|Mk 1:14]]
+[^D]: S [[Matt-3-2|Mt 3:2]]; [[Acts-20-25|Ac 20:25]]; [[Acts-28-23|28:23]], [[Acts-28-31|31]]
+[^E]: [[Matt-8-16|Mt 8:16]]; [[Matt-14-14|14:14]]; [[Matt-15-30|15:30]]; [[Mark-3-10|Mk 3:10]]; [[Luke-7-22|Lk 7:22]]; [[Acts-10-38|Ac 10:38]]
+

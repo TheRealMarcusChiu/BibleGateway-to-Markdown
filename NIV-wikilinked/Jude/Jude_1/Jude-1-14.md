@@ -1,0 +1,8 @@
+# Jude 14 (New International Version)
+Enoch,[^A] the seventh from Adam, prophesied about them: "See, the Lord is coming[^B] with thousands upon thousands of his holy ones[^C] 
+
+### Crossrefs
+[^A]: [[Gen-5-18|Ge 5:18]], [[Gen-5-21|21-24]]
+[^B]: S [[Matt-16-27|Mt 16:27]]
+[^C]: [[Deut-33-2|Dt 33:2]]; [[Dan-7-10|Da 7:10]]; [[Zech-14-5|Zec 14:5]]; [[Heb-12-22|Heb 12:22]]
+

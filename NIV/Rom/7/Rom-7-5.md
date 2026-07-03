@@ -1,0 +1,9 @@
+# Romans 7:5 (New International Version)
+For when we were in the realm of the flesh,[^A] the sinful passions aroused by the law[^B] were at work in us,[^C] so that we bore fruit for death.[^D] 
+
+### Crossrefs
+[^A]: S Gal 5:24
+[^B]: Ro 7:7-11
+[^C]: Ro 6:13
+[^D]: S Ro 6:23
+

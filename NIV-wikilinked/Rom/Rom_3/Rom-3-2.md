@@ -1,0 +1,7 @@
+# Romans 3:2 (New International Version)
+Much in every way![^A] First of all, the Jews have been entrusted with the very words of God.[^B]
+
+### Crossrefs
+[^A]: [[Rom-9-4|Ro 9:4]], [[Rom-9-5|5]]
+[^B]: [[Deut-4-8|Dt 4:8]]; [[Ps-147-19|Ps 147:19]]; [[Acts-7-38|Ac 7:38]]
+

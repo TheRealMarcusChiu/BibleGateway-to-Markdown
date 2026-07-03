@@ -1,0 +1,8 @@
+# Romans 9:6 (New International Version)
+God's Sovereign Choice
+It is not as though God's word[^A] had failed. For not all who are descended from Israel are Israel.[^B] 
+
+### Crossrefs
+[^A]: S Heb 4:12
+[^B]: Ro 2:28, 29; Gal 6:16
+

@@ -1,0 +1,3 @@
+# Luke 21:7 (New International Version)
+"Teacher," they asked, "when will these things happen? And what will be the sign that they are about to take place?"
+

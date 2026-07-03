@@ -1,0 +1,7 @@
+# Matthew 5:12 (New International Version)
+Rejoice and be glad,[^A] because great is your reward in heaven, for in the same way they persecuted the prophets who were before you.[^B]
+
+### Crossrefs
+[^A]: [[Ps-9-2|Ps 9:2]]; [[Acts-5-41|Ac 5:41]]; S [[2Cor-6-10|2Co 6:10]]; [[2Cor-12-10|12:10]]; [[Col-1-24|Col 1:24]]; [[Jas-1-2|Jas 1:2]]; [[1Pet-1-6|1Pe 1:6]]; [[1Pet-4-13|4:13]], [[1Pet-4-16|16]]
+[^B]: [[2Chr-36-16|2Ch 36:16]]; [[Matt-23-31|Mt 23:31]], [[Matt-23-37|37]]; [[Acts-7-52|Ac 7:52]]; [[1Thess-2-15|1Th 2:15]]; [[Heb-11-32|Heb 11:32-38]]
+

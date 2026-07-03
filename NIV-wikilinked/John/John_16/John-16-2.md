@@ -1,0 +1,7 @@
+# John 16:2 (New International Version)
+They will put you out of the synagogue;[^A] in fact, the time is coming when anyone who kills you will think they are offering a service to God.[^B] 
+
+### Crossrefs
+[^A]: [[John-9-22|Jn 9:22]]; [[John-12-42|12:42]]
+[^B]: [[Isa-66-5|Isa 66:5]]; [[Acts-26-9|Ac 26:9]], [[Acts-26-10|10]]; [[Rev-6-9|Rev 6:9]]
+

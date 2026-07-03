@@ -1,0 +1,8 @@
+# Acts 5:19 (New International Version)
+But during the night an angel[^A] of the Lord opened the doors of the jail[^B] and brought them out.[^C] 
+
+### Crossrefs
+[^A]: [[Gen-16-7|Ge 16:7]]; [[Exod-3-2|Ex 3:2]]; [[Matt-1-20|Mt 1:20]]; [[Matt-2-13|2:13]], [[Matt-2-19|19]]; [[Matt-28-2|28:2]]; [[Luke-1-11|Lk 1:11]]; [[Luke-2-9|2:9]]; S [[John-20-12|Jn 20:12]]; [[Acts-8-26|Ac 8:26]]; [[Acts-10-3|10:3]]; [[Acts-12-7|12:7]], [[Acts-12-23|23]]; [[Acts-27-23|27:23]]
+[^B]: [[Acts-16-26|Ac 16:26]]
+[^C]: [[Ps-34-7|Ps 34:7]]
+

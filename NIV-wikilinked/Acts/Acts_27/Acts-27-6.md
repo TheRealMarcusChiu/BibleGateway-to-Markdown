@@ -1,0 +1,7 @@
+# Acts 27:6 (New International Version)
+There the centurion found an Alexandrian ship[^A] sailing for Italy[^B] and put us on board. 
+
+### Crossrefs
+[^A]: [[Acts-28-11|Ac 28:11]]
+[^B]: [[Acts-27-1|ver 1]]; [[Acts-18-2|Ac 18:2]]; [[Acts-25-12|25:12]], [[Acts-25-25|25]]
+

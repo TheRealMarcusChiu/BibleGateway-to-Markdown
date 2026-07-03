@@ -1,0 +1,3 @@
+# Judges 1:14 (New International Version)
+One day when she came to Othniel, she urged him to ask her father for a field. When she got off her donkey, Caleb asked her, "What can I do for you?"
+

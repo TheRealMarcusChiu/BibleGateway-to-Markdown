@@ -1,0 +1,3 @@
+# Leviticus 6:1 (New International Version)
+The LORD said to Moses: 
+

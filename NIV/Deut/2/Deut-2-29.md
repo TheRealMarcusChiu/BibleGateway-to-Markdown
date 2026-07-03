@@ -1,0 +1,3 @@
+# Deuteronomy 2:29 (New International Version)
+as the descendants of Esau, who live in Seir, and the Moabites, who live in Ar, did for us--until we cross the Jordan into the land the LORD our God is giving us." 
+

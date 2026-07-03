@@ -1,0 +1,3 @@
+# Exodus 1:18 (New International Version)
+Then the king of Egypt summoned the midwives and asked them, "Why have you done this? Why have you let the boys live?"
+

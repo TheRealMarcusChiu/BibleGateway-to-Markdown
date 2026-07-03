@@ -1,0 +1,8 @@
+# Luke 3:37 (New International Version)
+the son of Methuselah, the son of Enoch,
+the son of Jared, the son of Mahalalel,
+the son of Kenan,[^A] 
+
+### Crossrefs
+[^A]: Ge 5:12-25
+

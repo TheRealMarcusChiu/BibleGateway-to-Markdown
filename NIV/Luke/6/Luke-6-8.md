@@ -1,0 +1,6 @@
+# Luke 6:8 (New International Version)
+But Jesus knew what they were thinking[^A] and said to the man with the shriveled hand, "Get up and stand in front of everyone." So he got up and stood there.
+
+### Crossrefs
+[^A]: S Mt 9:4
+

@@ -1,0 +1,7 @@
+# John 3:32 (New International Version)
+He testifies to what he has seen and heard,[^A] but no one accepts his testimony.[^B] 
+
+### Crossrefs
+[^A]: Jn 8:26; 15:15
+[^B]: ver 11
+

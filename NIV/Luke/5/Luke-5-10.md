@@ -1,0 +1,7 @@
+# Luke 5:10 (New International Version)
+and so were James and John, the sons of Zebedee, Simon's partners.
+Then Jesus said to Simon, "Don't be afraid;[^A] from now on you will fish for people." 
+
+### Crossrefs
+[^A]: S Mt 14:27
+

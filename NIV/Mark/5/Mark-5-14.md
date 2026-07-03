@@ -1,0 +1,3 @@
+# Mark 5:14 (New International Version)
+Those tending the pigs ran off and reported this in the town and countryside, and the people went out to see what had happened. 
+

@@ -1,0 +1,5 @@
+# Luke 3:35 (New International Version)
+the son of Serug, the son of Reu,
+the son of Peleg, the son of Eber,
+the son of Shelah, 
+

@@ -1,0 +1,6 @@
+# Mark 8:8 (New International Version)
+The people ate and were satisfied. Afterward the disciples picked up seven basketfuls of broken pieces that were left over.[^A] 
+
+### Crossrefs
+[^A]: ver 20
+

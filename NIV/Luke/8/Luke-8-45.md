@@ -1,0 +1,7 @@
+# Luke 8:45 (New International Version)
+"Who touched me?" Jesus asked.
+When they all denied it, Peter said, "Master,[^A] the people are crowding and pressing against you."
+
+### Crossrefs
+[^A]: S Lk 5:5
+

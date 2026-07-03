@@ -1,0 +1,6 @@
+# Luke 8:37 (New International Version)
+Then all the people of the region of the Gerasenes asked Jesus to leave them,[^A] because they were overcome with fear. So he got into the boat and left.
+
+### Crossrefs
+[^A]: Ac 16:39
+

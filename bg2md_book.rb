@@ -56,17 +56,28 @@ module BG2MDBook
     !text.nil? && text.lstrip.start_with?('# ')
   end
 
+  # No chapter has more verses than Ps 119's 176; anything bigger is junk
+  # (typically a year from a leaked publisher line).
+  MAX_PLAUSIBLE_VERSE = 176
+
+  # bg2md leaks a publisher line (e.g. 'NIV Reverse Interlinear Bible ...
+  # Copyright © 2019 by Zondervan.') into the passage even with -c; drop it.
+  def strip_leaked_copyright(text)
+    text.gsub(/^.*copyright\s*©.*$\n?/i, '')
+  end
+
   # Find the highest verse number in a whole-chapter bg2md output.
   # Verse numbers appear as inline 'N ' tokens; a chapter start appears as
   # 'C:1 ' (the verse part is what counts). The heading line is skipped.
   def parse_max_verse(markdown)
-    text = markdown.to_s.sub(/^# .*$/, '')
+    text = strip_leaked_copyright(markdown.to_s).sub(/^# .*$/, '')
     verses = []
     text = text.gsub(/(\d+):(\d+)\s/) do
       verses << Regexp.last_match(2).to_i
       ' '
     end
     text.scan(/(?:\A|\s)(\d+)\s/) { |m| verses << m[0].to_i }
+    verses.reject! { |v| v > MAX_PLAUSIBLE_VERSE }
     verses.max
   end
 
@@ -119,7 +130,7 @@ module BG2MDBook
         sleeper.call(delay)
         if valid_output?(verse_md)
           FileUtils.mkdir_p(File.dirname(path))
-          File.write(path, verse_md.lstrip)
+          File.write(path, strip_leaked_copyright(verse_md.lstrip))
           stats[:written] += 1
         else
           stats[:failed] << "#{book} #{ch}:#{v}"

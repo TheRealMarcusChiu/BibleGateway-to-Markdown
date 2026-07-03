@@ -52,6 +52,34 @@ class TestParseMaxVerse < Minitest::Test
   def test_no_verses
     assert_nil BG2MDBook.parse_max_verse("\n# Something (X)\nno digits here")
   end
+
+  def test_leaked_publisher_line_ignored
+    # bg2md leaks this publisher line into the passage even with -c; its
+    # year must not be read as a verse number (regression: Jude -> 2019).
+    md = "\n# Jude (New International Version)\n1:1 Jude, a servant text 2 mercy text 25 now and forevermore \n" \
+         'NIV Reverse Interlinear Bible: English to Hebrew and English to Greek. Copyright © 2019 by Zondervan.'
+    assert_equal 25, BG2MDBook.parse_max_verse(md)
+  end
+
+  def test_implausibly_large_numbers_ignored
+    md = "\n# X (Y)\n1:1 text 2 text 1996 stray big number"
+    assert_equal 2, BG2MDBook.parse_max_verse(md)
+  end
+end
+
+class TestStripLeakedCopyright < Minitest::Test
+  def test_removes_publisher_line
+    md = "# Jude 25 (New International Version)\nto the only God be glory.\n" \
+         "NIV Reverse Interlinear Bible: English to Hebrew and English to Greek. Copyright © 2019 by Zondervan.\n\n" \
+         "### Crossrefs\n[^A]: Jn 5:44\n"
+    expected = "# Jude 25 (New International Version)\nto the only God be glory.\n\n### Crossrefs\n[^A]: Jn 5:44\n"
+    assert_equal expected, BG2MDBook.strip_leaked_copyright(md)
+  end
+
+  def test_leaves_clean_output_alone
+    md = "# Jude 25 (X)\ntext\n"
+    assert_equal md, BG2MDBook.strip_leaked_copyright(md)
+  end
 end
 
 class TestFetchers < Minitest::Test
